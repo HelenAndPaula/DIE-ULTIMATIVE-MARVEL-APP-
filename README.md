@@ -35,14 +35,16 @@ Die Blöcke gliedern sich wie bei SNAP! in acht Kategorien:
 
 Davon haben wir besonders folgende benutzt: 
 
-Ul-Controls: Mit diesen Blöcken lassen sich verschiedene Vorgänge definieren, so zum Beispiel was beim Anklicken eines               bestimmten Knopfes geschieht oder wann welcher Screen gesetzt wird. 
+Ul-Controls (gelb): Mit diesen Blöcken lassen sich verschiedene Vorgänge definieren, so zum Beispiel was beim Anklicken eines               bestimmten Knopfes geschieht oder wann welcher Screen gesetzt wird. 
 
-Control: Mit diesen Blöcken lassen sich vorallem if-Schleifen programmieren, was  besonders beim Psychotest nötig war.
+Control (blau) : Mit diesen Blöcken lassen sich vorallem if-Schleifen programmieren, was  besonders beim Psychotest nötig war.
 
-Variables: Hier lassen sich Variabeln definieren und im Laufe des Spiels verändern.
+Variables (lila): Hier lassen sich Variabeln definieren und im Laufe des Spiels verändern.
 
-Math: Diese Blöcke enthalten vorallem die Funktion von Rechenzeichen, sodass zum Beispiel gesetzte Varaibeln mit Zahlen addiert werden können. 
+Math (orange): Diese Blöcke enthalten vorallem die Funktion von Rechenzeichen, sodass zum Beispiel gesetzte Varaibeln um bestimmte Faktoren erhöht werden können. 
 
+### Entwurf-Bereich
 
+<img width="1280" alt="Bildschirmfoto 2019-04-12 um 15 50 21" src="https://user-images.githubusercontent.com/42578525/56043156-fa48b280-5d3c-11e9-8541-44c2bb5aa822.png">
 
-
+AppLAb besticht neben der übersich
