@@ -5,36 +5,43 @@
 <details><summary>anzeigen</summary>
 <p>
  
-[1.   Dienstag, 08. Januar 2019](#1)  
+[1.   Idee](#1)  
 
-[2.   Montag, 14. Januar 2019](#2)
+[2.   Programm](#2)
 
-[3.   Dienstag, 15. Januar 2019](#3)
+[3.   Homescreen  ](#3)
 
-[4.   Montag, 21. Januar 2019](#4)
+[4.   Das ultimative Marvel-Quiz](#4)
 
-[5.   Dienstag, 22. Januar 2019](#5)
+<details><summary>anzeigen</summary>
+<p>[5.   Konzept](#5)
 
-[6.   Montag, 28. Januar 2019](#6)
+[6.  Design](#6)
 
-[7.   Dienstag, 29. Januar 2019](#7)
+[7.   Screens](#7)
  
-[8.   Dienstag, 5. Februar 2019](#8)
+[8.  Code](#8)
 
-[9.   Montag, 11. Februar 2019](#9)
+[9.  Ende des Quiz](#9)</details>
 
-[10.   Dienstag, 12. Februar 2019](#10)
+[10.   Welcher Marvelheld? bist du](#10)
 
-[11.   Montag, 18. Februar 2019](#11)
+[11.   Konzept](#11)
 
-[12.   Dienstag, 19. Februar 2019](#12)
+[12.   Design](#12)
 
-[13.   Montag, 25. Februar 2019](#13)
+[13.   Screens](#13)
 
-[14.   Dienstag, 26. Februar 2019](#14)
+[14.   Helden / mögliche Ergebnisse](#14)
 
-[15.   Montag, 04. März 2019](#15)
+[15.  Code](#15)
 
+[15.   Teilen der App](#15)
+
+[15.  Fazit](#15)
+
+[15.    Stundenblog](#15)
+</details>
 
 <img width="613" alt="Bildschirmfoto 2019-04-12 um 15 03 21" src="https://user-images.githubusercontent.com/42578525/56039348-696dd900-5d34-11e9-8e44-37e9bd882d29.png">
 
