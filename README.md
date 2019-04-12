@@ -1,4 +1,5 @@
 # DIE ULTIMATIVE MARVEL-APP
+# *von Helen Lipinski und Paula Meyhöfer*
 
 
 <img width="613" alt="Bildschirmfoto 2019-04-12 um 15 03 21" src="https://user-images.githubusercontent.com/42578525/56039348-696dd900-5d34-11e9-8e44-37e9bd882d29.png">
