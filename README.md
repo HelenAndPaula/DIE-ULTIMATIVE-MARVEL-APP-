@@ -237,4 +237,26 @@ Die einzelnen Fragescreens sind ebenfalls gleich programmiert. Daher werden wir 
 
 Mit Beginn der ersten Frage wird zunächst eine neue Variable "score" eingeführt und mithilfe des Befehls "var"score"=0" gleich 0 gesetzt. 
 
-Danach folgen jeweils onEvent-Blöcke, die definieren was beim anklicken der jeweiligen Buttons passiert. Button8 zum Beispiel definiert die Antwort für Captain America, der Score muss also um 4 erhöht werden. Dazu wird unter den onEvent-Befehl ("button9",click) ein Variablenblock gesetzt, der in Kombination mit einem Math-Block die Erhöhung des Scores um 4 definiert: "score=score+4". Wie auch beim Quiz wird dann ein Textfeld, welches jedoch nicht für den Spieler sichtbar ist (schwarze Schrift auf schwarzem Hintergrund", mit dem Score gleichgesetzt (setText, s. oben). Dies wird für jede Antowrtmöglichkeit und bei allen Fragescreens so gemacht. Dabei gilt immer "score=score+x", wobei x die für die Figur festgelegte Zahl ist. SOmit ergibt sich für Frage 1 der im Bild gezeigte Code. 
+Danach folgen jeweils onEvent-Blöcke, die definieren was beim anklicken der jeweiligen Buttons passiert. Button8 zum Beispiel definiert die Antwort für Captain America, der Score muss also um 4 erhöht werden. Dazu wird unter den onEvent-Befehl ("button9",click) ein Variablenblock gesetzt, der in Kombination mit einem Math-Block die Erhöhung des Scores um 4 definiert: "score=score+4". Wie auch beim Quiz wird dann ein Textfeld, welches jedoch nicht für den Spieler sichtbar ist (schwarze Schrift auf schwarzem Hintergrund", mit dem Score gleichgesetzt (setText, s. oben). Dies wird für jede Antowrtmöglichkeit und bei allen Fragescreens so gemacht. Dabei gilt immer "score=score+x", wobei x die für die Figur festgelegte Zahl ist. SOmit ergibt sich für Frage 1 der im Bild gezeigte Code. Dieser ähnelt dem des Quizes.
+
+Entscheidend ist die Auswertung des Psychotest. Dabei wurde festgelegt bei welchem Score welches Ergebnis folgen soll und dies mithilfe von if-Befehlen festgelegt. Dabei ist jeweils definiert, welcher Ergebnisscreen gezeigt werden soll, wenn der Score größergleich ein bestimmter Wert ist. 
+
+<img width="678" alt="Bildschirmfoto 2019-04-12 um 20 50 22" src="https://user-images.githubusercontent.com/42578525/56059725-05afd400-5d65-11e9-8812-6e8394622ad3.png">
+<img width="655" alt="Bildschirmfoto 2019-04-12 um 20 50 31" src="https://user-images.githubusercontent.com/42578525/56059726-06486a80-5d65-11e9-9099-c886aea16411.png">
+
+DAzu wurde der die Kombination der Befehle if() (wenn...) und setScreen genutzt. Die Werte lauten wiefolgt: 
+Score > 0 : Loki
+Score > 16: Thor
+Score > 25: Iron Man
+Score > 37: Captain America
+Score > 45: Scarlet Witch
+Score > 55: Black Widow
+Score > 63: Groot
+Score > 75: Spiderman
+
+Die Werte sind etwas unregelmäßig, da nicht alle FRagen genau acht Antworten haben. 
+
+
+
+
+
