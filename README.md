@@ -159,7 +159,7 @@ Nun werden wir näher auf unseren Psychotest "Welcher Marvelheld bist du?" einge
 
 ### Konzept
 
-Neben unserem Quiz wollten wir zusätzliche etwas programmieren, was nicht  ur das Wissen des Spielers testet, sondern auch Spaß macht. So kamen wir auf die Idee des Psychotests.
+Neben unserem Quiz wollten wir zusätzliche etwas programmieren, was nicht  nur das Wissen des Spielers testet, sondern auch Spaß macht. So kamen wir auf die Idee des Psychotests.
 
 Das Konzept ist einfach: Der Spieler beantwortet zehn Fragen mit je acht Antwortmöglichkeiten, die je für einen Helden stehen. Für jeden Helden ist eine bestimmte Punktzahl festgelegt, die zu einem für den Spieler nicht sichtbaren Score addiert wird. Am Ende wird dieser ausgewertet, das heißt, je nachdem wie viele Punkte der Spieler erreicht hat, erhält er ein anderes Ergbenis.
 
@@ -169,7 +169,7 @@ Wie auch das Quiz ist der Psychotest vollständig schwarz mit weißer Schrift ge
 
 ### Helden (mögliche Ergebnisse)
 
-Die folgende Tabelle zeigt die acht Helden mit ihren wichtigsten Eigenschaften sowie den FAktor um den sich der Score erhöht, wenn ihre Antwort geklickt wird. 
+Die folgende Tabelle zeigt die acht Helden mit ihren wichtigsten Eigenschaften sowie den Faktor um den sich der Score erhöht, wenn ihre Antwort geklickt wird. 
 
 Loki: Antiheld, Bruder von Thor, hinterhältig (Score +1)
 
@@ -178,13 +178,41 @@ Thor: stark, mächtig, unsterblich, Gott des Donners (Score +2)
 Iron Man:Technik, reich, von sich selbst überzeugt (Score +3)
 Captain America:  mutig, sportlich, stur                               (Score +4)
 
-Scarlet Witch:    Magische Fähigkeiten durch Experimente               (Score +5)
+Scarlet Witch:  Magische Fähigkeiten durch Experimente               (Score +5)
 
-Black Widow:      Agentin, Nahkampf, kein Vertrauen                    (Score +6)
+Black Widow: Agentin, Nahkampf, kein Vertrauen                    (Score +6)
 
-Groot:            ich bin Groot                                        (Score +7)
+Groot: ich bin Groot                                        (Score +7)
 
-Spiderman:        mutig, Naturwissenschaften, unerfahren               (Score +8)
+Spiderman:  mutig, Naturwissenschaften, unerfahren               (Score +8)
+
+Die Fragen werden wiefolgt gewertet: 
+
+<img width="629" alt="Bildschirmfoto 2019-04-12 um 20 25 47" src="https://user-images.githubusercontent.com/42578525/56058483-ccc23000-5d61-11e9-8b0d-1234a745d0e3.png">
+
+### Screens
+
+Der Psychotest setzt sich aus 21 Screens zusammen. Die ersten beiden sind erneut Homescreen (home-psychotest) und Anleitung (screen12). 
+
+<img width="300" alt="Bildschirmfoto 2019-04-12 um 20 23 34" src="https://user-images.githubusercontent.com/42578525/56058150-eadb6080-5d60-11e9-94e5-3a4f46f64dc8.png"> <img width="298" alt="Bildschirmfoto 2019-04-12 um 20 23 47" src="https://user-images.githubusercontent.com/42578525/56058151-eadb6080-5d60-11e9-9ef7-ecb191ccf361.png">
+
+Zudem gibt es die zehn verschiedenen Fragescreens (screen1 bis screen10) mit je acht Antwortmöglichkeiten:
+
+
+<img width="301" alt="Bildschirmfoto 2019-04-12 um 20 27 20" src="https://user-images.githubusercontent.com/42578525/56058415-a7cdbd00-5d61-11e9-989e-664cf6465392.png"> <img width="299" alt="Bildschirmfoto 2019-04-12 um 20 27 36" src="https://user-images.githubusercontent.com/42578525/56058416-a7cdbd00-5d61-11e9-8258-2cd5c0c988ac.png">
+
+<img width="294" alt="Bildschirmfoto 2019-04-12 um 20 27 58" src="https://user-images.githubusercontent.com/42578525/56058417-a7cdbd00-5d61-11e9-82de-50783b521732.png"> <img width="296" alt="Bildschirmfoto 2019-04-12 um 20 28 05" src="https://user-images.githubusercontent.com/42578525/56058418-a7cdbd00-5d61-11e9-9488-666b42e41797.png">
+
+<img width="296" alt="Bildschirmfoto 2019-04-12 um 20 28 12" src="https://user-images.githubusercontent.com/42578525/56058419-a7cdbd00-5d61-11e9-8bb3-062a84f63772.png"> <img width="296" alt="Bildschirmfoto 2019-04-12 um 20 28 30" src="https://user-images.githubusercontent.com/42578525/56058420-a8665380-5d61-11e9-858b-bc6e7435231f.png">
+
+<img width="294" alt="Bildschirmfoto 2019-04-12 um 20 28 37" src="https://user-images.githubusercontent.com/42578525/56058421-a8665380-5d61-11e9-990f-763a647a212d.png"> <img width="295" alt="Bildschirmfoto 2019-04-12 um 20 28 44" src="https://user-images.githubusercontent.com/42578525/56058423-a8665380-5d61-11e9-9d6e-9637479ec797.png">
+
+<img width="294" alt="Bildschirmfoto 2019-04-12 um 20 28 51" src="https://user-images.githubusercontent.com/42578525/56058424-a8feea00-5d61-11e9-88dd-bb5cfdb4cc8e.png"> <img width="294" alt="Bildschirmfoto 2019-04-12 um 20 29 02" src="https://user-images.githubusercontent.com/42578525/56058425-a8feea00-5d61-11e9-93e2-e3412d5d8b07.png">
+
+
+
+
+
 
 
 
