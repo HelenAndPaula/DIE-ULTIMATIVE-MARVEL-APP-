@@ -101,7 +101,14 @@ Neben diesen zwanzig Screens gibt es noch sechs weitere.
 
 Zwei davon sind der gewonnen- bzw. der verloren-Screen, die auf jeden Frage folgen. Dabei entschieden wir uns für zwei passende Captain-America-Memes, die sich einfügen ließen und jeweils entweder positiv (Daumen hoch) oder negativ (enttäuscht) sind. 
 
-<img width="298" alt="Bildschirmfoto 2019-04-12 um 17 04 50" src="https://user-images.githubusercontent.com/42578525/56047192-33852080-5d45-11e9-8f19-bcd49850407f.png"> 
+<img width="298" alt="Bildschirmfoto 2019-04-12 um 17 04 50" src="https://user-images.githubusercontent.com/42578525/56047192-´33852080-5d45-11e9-8f19-bcd49850407f.png"> <img width="292" alt="Bildschirmfoto 2019-04-12 um 17 04 34" src="https://user-images.githubusercontent.com/42578525/56047193-33852080-5d45-11e9-8c94-54171df11dbe.png"> <img width="292" alt="Bildschirmfoto 2019-04-12 um 17 04 34" src="https://user-images.githubusercontent.com/42578525/56047193-33852080-5d45-11e9-8c94-54171df11dbe.png">
 
-<img width="292" alt="Bildschirmfoto 2019-04-12 um 17 04 34" src="https://user-images.githubusercontent.com/42578525/56047193-33852080-5d45-11e9-8c94-54171df11dbe.png">
+Die anderen Screens sind zum einen der Homescreen des Quiz sowie die Anleitung, die beide über einen Button verfügen, sodass man vom Homescreen zur Anleitung und von dort zum Quiz gelangt.
+
+<img width="297" alt="Bildschirmfoto 2019-04-12 um 17 13 37" src="https://user-images.githubusercontent.com/42578525/56047732-5cf27c00-5d46-11e9-8a32-cb563ed2427f.png"> <img width="295" alt="Bildschirmfoto 2019-04-12 um 17 13 47" src="https://user-images.githubusercontent.com/42578525/56047733-5cf27c00-5d46-11e9-9ac1-995cf82a48ea.png">
+
+Hinzu kommen noch die zwei möglichen Endscreens: der verloren-Screen, der auftritt wenn alle Leben verbraucht wurden, und der Endscreen, wenn der Spieler alle Fragen beantwortet hat. 
+
+<img width="290" alt="Bildschirmfoto 2019-04-12 um 17 17 08" src="https://user-images.githubusercontent.com/42578525/56048009-e73ae000-5d46-11e9-9d56-6beb606e3d40.png"> <img width="299" alt="Bildschirmfoto 2019-04-12 um 17 17 31" src="https://user-images.githubusercontent.com/42578525/56048012-e73ae000-5d46-11e9-94fd-033118d7b7c8.png">
+
 
