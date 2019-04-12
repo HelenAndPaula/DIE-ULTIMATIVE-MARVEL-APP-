@@ -19,7 +19,7 @@ Neben dem Quiz entschieden wir uns für einen Psychotest, bei dem der Spieler te
 
 Während wir bei unserem letzten Projekt mit SNAP! gearbeitet haben, sind wir für dieses zweite Projekt auf Code.org umgestiegen und haben AppLab zur Programmierung unserer App genutzt. 
 
-AppLab funktioniert mit einer visuellen Programmiersprache und eignet sich sowohl für Einsteiger als auch für etwas fortgeschrittenere Programmierer, da man sowohl Befehlblöcke verwenden als auch einen Text programmieren kann. Dabei sind alle Befehle in Englisch verfasst. Das Programm ist sehr modern und farenfrph gestaltet und ermöglicht es sogar, die programmierte App direkt mit anderen zu teilen und auf ein Handy zu schicken, sodass sie dort gespielt werden kann. 
+AppLab funktioniert mit einer visuellen Programmiersprache und eignet sich sowohl für Einsteiger als auch für etwas fortgeschrittenere Programmierer, da man sowohl Blöcke verwenden als auch direkt JavaScript als Text programmieren kann. Dabei sind alle Befehle in Englisch verfasst. Das Programm ist sehr modern und farenfroh gestaltet und ermöglicht es sogar, die programmierte App direkt mit anderen zu teilen und auf ein Handy zu schicken, sodass sie dort gespielt werden kann. 
 
 AppLab gliedert sich in zwei Hauptbereiche: Den "Code"- und den "Entwurf"-Bereich.
 
@@ -155,9 +155,30 @@ Wie oben erklärt wird  bei jeder falschen Antwort eins der zehn Leben abgezogen
 
 ## WELCHER MARVELHELD BIST DU?
 
-Nun werden wir näher auf unseren Psychotest "Welcher MArvelheld bist du?" eingehen. 
+Nun werden wir näher auf unseren Psychotest "Welcher Marvelheld bist du?" eingehen. 
 
 ### Konzept
+
+Neben unserem Quiz wollten wir zusätzliche etwas programmieren, was nicht  ur das Wissen des Spielers testet, sondern auch Spaß macht. So kamen wir auf die Idee des Psychotests.
+
+Das Konzept ist einfach: Der Spieler beantwortet zehn Fragen mit je acht Antwortmöglichkeiten, die je für einen Helden stehen. Für jeden Helden ist eine bestimmte Punktzahl festgelegt, die zu einem für den Spieler nicht sichtbaren Score addiert wird. Am Ende wird dieser ausgewertet, das heißt, je nachdem wie viele Punkte der Spieler erreicht hat, erhält er ein anderes Ergbenis.
+
+### Design
+
+Wie auch das Quiz ist der Psychotest vollständig schwarz mit weißer Schrift gestaltet. Auf den Fragescreens sind keine Bilder, jeodch ist bei den Ergebnissen jeweils der jeweilige Superheld abgebildet. 
+
+### Helden (mögliche Ergebnisse)
+
+Die folgende Tabelle zeigt die acht Helden mit ihren wichtigsten Eigenschaften sowie den FAktor um den sich der Score erhöht, wenn ihre Antwort geklickt wird. 
+
+Loki:             Antiheld, Bruder von Thor, hinterhältig              Score +1
+Thor:             stark, mächtig, unsterblich, Gott des Donners        Score +2
+Iron Man:         Technik, reich, von sich selbst überzeugt            Score +3
+Captain America:  mutig, sportlich, stur                               Score +4
+Scarlet Witch:    Magische Fähigkeiten durch Experimente               Score +5
+Black Widow:      Agentin, Nahkampf, kein Vertrauen                    Score +6
+Groot:            ich bin Groot                                        Score +7
+Spiderman:        mutig, Naturwissenschaften, unerfahren               Score +8
 
 
 
