@@ -96,3 +96,12 @@ Bei 20 dieser Screens (screen101-screen120) handelt es sich um die Frage-Screens
 <img width="296" alt="Bildschirmfoto 2019-04-12 um 16 54 39" src="https://user-images.githubusercontent.com/42578525/56046560-ca50dd80-5d43-11e9-8ec8-171847bb4b6d.png"> <img width="293" alt="Bildschirmfoto 2019-04-12 um 16 54 45" src="https://user-images.githubusercontent.com/42578525/56046575-d5a40900-5d43-11e9-842b-cc3471006413.png">
 
 <img width="297" alt="Bildschirmfoto 2019-04-12 um 16 54 53" src="https://user-images.githubusercontent.com/42578525/56046576-d5a40900-5d43-11e9-8b31-a6f4656b21d7.png"> <img width="296" alt="Bildschirmfoto 2019-04-12 um 16 55 10" src="https://user-images.githubusercontent.com/42578525/56046578-d63c9f80-5d43-11e9-9235-63d95ace4953.png">
+
+Neben diesen zwanzig Screens gibt es noch sechs weitere.
+
+Zwei davon sind der gewonnen- bzw. der verloren-Screen, die auf jeden Frage folgen. Dabei entschieden wir uns für zwei passende Captain-America-Memes, die sich einfügen ließen und jeweils entweder positiv (Daumen hoch) oder negativ (enttäuscht) sind. 
+
+<img width="298" alt="Bildschirmfoto 2019-04-12 um 17 04 50" src="https://user-images.githubusercontent.com/42578525/56047192-33852080-5d45-11e9-8f19-bcd49850407f.png"> 
+
+<img width="292" alt="Bildschirmfoto 2019-04-12 um 17 04 34" src="https://user-images.githubusercontent.com/42578525/56047193-33852080-5d45-11e9-8c94-54171df11dbe.png">
+
