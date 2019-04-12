@@ -1,5 +1,4 @@
 # DIE ULTIMATIVE MARVEL-APP
-# *von Helen Lipinski und Paula Meyhöfer*
 
 
 <img width="613" alt="Bildschirmfoto 2019-04-12 um 15 03 21" src="https://user-images.githubusercontent.com/42578525/56039348-696dd900-5d34-11e9-8e44-37e9bd882d29.png">
@@ -53,6 +52,12 @@ AppLAb besticht neben dem übersichtlich AUfbau auch über den Entwurf- nzw. Des
 <img width="254" alt="Bildschirmfoto 2019-04-12 um 16 32 07" src="https://user-images.githubusercontent.com/42578525/56044954-8d371c00-5d40-11e9-8d6a-7960765d0906.png">
 
 So können zum Beispiel Textfelder, Knöpfe (Buttons) und Bilder problemlos per Drag'n'Drop eingefügt werden. Diese Möglichkeiten machen die App besonders ansprechend. 
+
+## HOMESCREEN 
+
+Da sich unsere App aus zwei verschiedenen Teilen (Quiz, Psychotest) zusammensetzt, haben wir zunächst einen Homescreen gestaltet und programmiert, von dem aus der Spieler entweder zum Quiz oder zum Psychotest gelangt. Die Programmierung wird unten beschrieben. Neben den beiden Buttons die zwischen Quiz und Test unterschieden, enthät der Homescreen das Marvel-Logi sowie den Namen der App.
+
+<img width="319" alt="Bildschirmfoto 2019-04-12 um 19 28 47" src="https://user-images.githubusercontent.com/42578525/56055291-7224d600-5d59-11e9-9541-1c901ad15d68.png">
 
 ## DAS ULTIMATIVE MARVEL-QUIZ 
 
@@ -149,6 +154,10 @@ Wird FRAGE20 richtig beantwortet, folgt statt des nächsten Fragescreens der Scr
 Wie oben erklärt wird  bei jeder falschen Antwort eins der zehn Leben abgezogen. Sind keine Leben mehr vorhanden endet das Spiel, ansonsten kann der Spieler das Quiz durchspielen, bis er alle 20 Fragen beantwortet hat. 
 
 ## WELCHER MARVELHELD BIST DU?
+
+Nun werden wir näher auf unseren Psychotest "Welcher MArvelheld bist du?" eingehen. 
+
+### Konzept
 
 
 
