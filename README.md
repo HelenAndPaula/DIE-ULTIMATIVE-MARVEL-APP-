@@ -121,7 +121,7 @@ Bevor das eigentliche Quit beginnt, gibt es einen ersten Befehlsblock, der für 
 
 Zusätzlich wird im ersten Block durch den Befehl var"leben"=10 die VAriable Leben gesetzt und auf 10 definiert. Jeder Screen verfügt rechts oben in der Ecke über ein Textfeld (leben1 bis leben20) indem jeweils die Lebensanzahl als Text gesetzt ist. Dazu dient der Befehl setText"leben1",leben, also wird das Textfeld (ID variiert je nach Screen (leben1 - leben20)) immer gleich der Variablen "leben", also der Anzahl der Leben gesetzt. Dieser Befehl zieht sich durch alle Screens, wir werden ihn jedoch nur hier erklären. 
 
-Da alle Fragescreens in der Programmierung bis auf Abweichungen in den Bezeichnungen identisch sind, werden wird dies anhand des ersten Fragescreens darlegen. Zu Übersichtszwecken haben wir die Programmierung mit Kommentaren versehen (FRAGE1, FFRAGE2,...). 
+Da alle Fragescreens in der Programmierung bis auf Abweichungen in den Bezeichnungen identisch sind, werden wird dies anhand des ersten Fragescreens darlegen. Zu Übersichtszwecken haben wir die Programmierung mit Kommentaren versehen (FRAGE1, FRAGE2,...). 
 
 Innerhalb der Fragescreens gibt es immer drei gleich programmierte falsche ANtworten sowie eine richtige. Zunächst werden wir die falschen Antworten anhand eines Beispiels erklären:
 
@@ -135,10 +135,13 @@ Dazu wird erneut ein onEvent-Block gesetzt, der definiert, was beim anklicken (c
 
 Das Bild zeigt die Befehle, wenn die richtige Antwort angeklickt wird. In diesem Fall wird kein Leben abgezogen und der gewonne-Screen angeziegt. 
 
-In diesem Fall wird  ein onEvent-Block gesetzt, der definiert, was beim anklicken (click) von button106 passierren soll. Der Befehl setScreen"gewonnen" gibt an, dass in diesem Fall der gewonnen-Screen gezeigt wird. Auf diesem befindet sich statt dem "zurück"-Button ein "weiter"-Button, mit dem der Spieler zur nächsten Frage gelangt. DAzu wird wieder der Befehl "onEvent"button106",click" zusammen mit setScreen verwendet, wobei der nächste SCreen indeisem Fall screen102 gesetzt wird. Zudem wird die Lebensangabe leben2 auf screen2 erneut mit der VAriablen Leben wie oben erklärt gleichgesetzt. 
+In diesem Fall wird  ein onEvent-Block gesetzt, der definiert, was beim anklicken (click) von button106 passierren soll. Der Befehl setScreen"gewonnen" gibt an, dass in diesem Fall der gewonnen-Screen gezeigt wird. Auf diesem befindet sich statt dem "zurück"-Button ein "weiter"-Button, mit dem der Spieler zur nächsten Frage gelangt. DAzu wird wieder der Befehl "onEvent"button106",click" zusammen mit setScreen verwendet, wobei der nächste Screen in diesem Fall screen102 gesetzt wird. Zudem wird die Lebensangabe leben2 auf screen2 erneut mit der Variablen Leben wie oben erklärt gleichgesetzt. 
 
 Auf diese Weise wurden alle 20 Fragescreens programmiert. 
 
+Wird FRAGE20 richtig beantwortet, folgt statt des nächsten Fragescreens der Screen "quizende" (Programmierung: s. oben). Auf diesem befindet sich ein vorgeschriebener Text sowie ein in diesen Text eingebautes Textfeld, das wie oben mit den Leben gleichgesetzt ist, sodass im Text die richtige Lebensanzahl steht. Von dort aus hat der Spieler erneut durch zwei Buttons die Möglichkeit erneut zu spielen (Button "nochmalquiz") oder zum Homescreen (Button "Home") zurückzukehren. Gleiches gilt für den Screen, der auftritt wenn keine Leben mehr verfügbar sind (hier: nochmalquiz2, Home101) . Wird der Button "nochmalquiz" angeklickt, werden die Leben wieder auf 10 gesetzt (leben=10). 
+
+<img width="522" alt="Bildschirmfoto 2019-04-12 um 17 56 41" src="https://user-images.githubusercontent.com/42578525/56050514-67b00f80-5d4c-11e9-982b-af9e2fe2f7cc.png">
 
 
 
