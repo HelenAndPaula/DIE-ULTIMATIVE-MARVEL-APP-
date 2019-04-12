@@ -245,16 +245,24 @@ Entscheidend ist die Auswertung des Psychotest. Dabei wurde festgelegt bei welch
 <img width="655" alt="Bildschirmfoto 2019-04-12 um 20 50 31" src="https://user-images.githubusercontent.com/42578525/56059726-06486a80-5d65-11e9-9099-c886aea16411.png">
 
 DAzu wurde der die Kombination der Befehle if() (wenn...) und setScreen genutzt. Die Werte lauten wiefolgt: 
+
 Score > 0 : Loki
+
 Score > 16: Thor
+
 Score > 25: Iron Man
+
 Score > 37: Captain America
+
 Score > 45: Scarlet Witch
+
 Score > 55: Black Widow
+
 Score > 63: Groot
+
 Score > 75: Spiderman
 
-Die Werte sind etwas unregelmäßig, da nicht alle FRagen genau acht Antworten haben. 
+Die Werte sind etwas unregelmäßig, da nicht alle Fragen genau acht Antworten haben. 
 
 
 
