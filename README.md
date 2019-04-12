@@ -19,7 +19,7 @@ Neben dem Quiz entschieden wir uns für einen Psychotest, bei dem der Spieler te
 
 Während wir bei unserem letzten Projekt mit SNAP! gearbeitet haben, sind wir für dieses zweite Projekt auf Code.org umgestiegen und haben AppLab zur Programmierung unserer App genutzt. 
 
-AppLab funktioniert mit einer visuellen Programmiersprache und eignet sich sowohl für Einsteiger als auch für etwas fortgeschrittenere Programmierer, da man sowohl Befehlblöcke verwenden als auch einen Text programmieren kann. Dabei sind alle Befehle in Englisch verfasst. 
+AppLab funktioniert mit einer visuellen Programmiersprache und eignet sich sowohl für Einsteiger als auch für etwas fortgeschrittenere Programmierer, da man sowohl Befehlblöcke verwenden als auch einen Text programmieren kann. Dabei sind alle Befehle in Englisch verfasst. Das Programm ist sehr modern und farenfrph gestaltet und ermöglicht es sogar, die programmierte App direkt mit anderen zu teilen und auf ein Handy zu schicken, sodass sie dort gespielt werden kann. 
 
 AppLab gliedert sich in zwei Hauptbereiche: Den "Code"- und den "Entwurf"-Bereich.
 
@@ -47,4 +47,9 @@ Math (orange): Diese Blöcke enthalten vorallem die Funktion von Rechenzeichen, 
 
 <img width="1280" alt="Bildschirmfoto 2019-04-12 um 15 50 21" src="https://user-images.githubusercontent.com/42578525/56043156-fa48b280-5d3c-11e9-8541-44c2bb5aa822.png">
 
-AppLAb besticht neben der übersich
+AppLAb besticht neben dem übersichtlich AUfbau auch über den Entwurf- nzw. Design-Bereich, in dem die einzelnen Screens auf viele verschiedene Weisen designt werden können. So kann zum Beispiel die Hintergrundfarbe festgelegt werden und es könne zahlreiche Dinge eingefügt werden: 
+
+<img width="254" alt="Bildschirmfoto 2019-04-12 um 16 32 07" src="https://user-images.githubusercontent.com/42578525/56044954-8d371c00-5d40-11e9-8d6a-7960765d0906.png">
+
+So können zum Beispiel Textfelder, Knöpfe (Buttons) und Bilder problemlos per Drag'n'Drop eingefügt werden. Diese Möglichkeiten machen die App besonders ansprechend. 
+
