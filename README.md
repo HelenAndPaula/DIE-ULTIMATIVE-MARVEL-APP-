@@ -1,9 +1,44 @@
 # DIE ULTIMATIVE MARVEL-APP
 
+## *Inhaltsverzeichnis*
+
+<details><summary>anzeigen</summary>
+<p>
+ 
+[1.   Dienstag, 08. Januar 2019](#1)  
+
+[2.   Montag, 14. Januar 2019](#2)
+
+[3.   Dienstag, 15. Januar 2019](#3)
+
+[4.   Montag, 21. Januar 2019](#4)
+
+[5.   Dienstag, 22. Januar 2019](#5)
+
+[6.   Montag, 28. Januar 2019](#6)
+
+[7.   Dienstag, 29. Januar 2019](#7)
+ 
+[8.   Dienstag, 5. Februar 2019](#8)
+
+[9.   Montag, 11. Februar 2019](#9)
+
+[10.   Dienstag, 12. Februar 2019](#10)
+
+[11.   Montag, 18. Februar 2019](#11)
+
+[12.   Dienstag, 19. Februar 2019](#12)
+
+[13.   Montag, 25. Februar 2019](#13)
+
+[14.   Dienstag, 26. Februar 2019](#14)
+
+[15.   Montag, 04. März 2019](#15)
+
 
 <img width="613" alt="Bildschirmfoto 2019-04-12 um 15 03 21" src="https://user-images.githubusercontent.com/42578525/56039348-696dd900-5d34-11e9-8e44-37e9bd882d29.png">
 
-## Idee
+## <a name="10"></a> Idee
 
 Die Aufgabenstellung für unser zweites Projekt war recht frei gestellt, jedoch sollte sich das Projekt auf die Verarbeitung 
 von Informationen beziehen. Das letzte Projekt haben wir mit SNAP! programmiert, diese Mal haben wir uns für AppLab von 
@@ -15,7 +50,7 @@ dafür Punkte bekommt. Wir entschieden uns diese Idee weiter auszubauen. Als The
 
 Neben dem Quiz entschieden wir uns für einen Psychotest, bei dem der Spieler testen kann, welchem Helden des MCU er am ähnlichsten ist.
 
-## Programm
+## <a name="10"></a> Programm
 
 Während wir bei unserem letzten Projekt mit SNAP! gearbeitet haben, sind wir für dieses zweite Projekt auf Code.org umgestiegen und haben AppLab von Code.org zur Programmierung unserer App genutzt. 
 
@@ -61,17 +96,17 @@ AppLAb besticht neben dem übersichtlich AUfbau auch über den Entwurf- nzw. Des
 
 So können zum Beispiel Textfelder, Knöpfe (Buttons) und Bilder problemlos per Drag'n'Drop eingefügt werden. Diese Möglichkeiten machen die App besonders ansprechend. 
 
-## HOMESCREEN 
+## <a name="10"></a> HOMESCREEN 
 
 Da sich unsere App aus zwei verschiedenen Teilen (Quiz, Psychotest) zusammensetzt, haben wir zunächst einen Homescreen gestaltet und programmiert, von dem aus der Spieler entweder zum Quiz oder zum Psychotest gelangt. Die Programmierung wird unten beschrieben. Neben den beiden Buttons die zwischen Quiz und Test unterschieden, enthät der Homescreen das Marvel-Logi sowie den Namen der App.
 
 <img width="319" alt="Bildschirmfoto 2019-04-12 um 19 28 47" src="https://user-images.githubusercontent.com/42578525/56055291-7224d600-5d59-11e9-9541-1c901ad15d68.png">
 
-## DAS ULTIMATIVE MARVEL-QUIZ 
+## <a name="10"></a> DAS ULTIMATIVE MARVEL-QUIZ 
 
 Nun wollen wir genauer auf unser Quiz eingehen und erklären wie wir es programmiert haben.
 
-### Konzept
+### <a name="10"></a> Konzept
 
 Das Konzept des Quiz ist recht einfach. Wir haben uns insgesamt 20 Fragen mit vier Antwortmöglichkeiten überlegt, von denen je eine richtig ist. Zudem haben wir uns entschieden, dass es zwei verschiedene Screens (gewonnen, verloren) gibt, die dem Spieler nach jeder Frage angezeigt werden, jenachdem, ob er die Frage richtig oder falsch beantwortet hat. Hat er sie falsch beantwortet, muss er sie solange wiederholen, bis er richtig antwortet. AUs diesem Grund machte ein typisches Punktesystem wenig Sinn, wir entschieden uns für 10 Leben, von denen bei jeder falschen Antwort eins abgezogen wird. Sind alle Leben aufgebraucht, endet das Quiz, wenn der Spieler alle Fragen schafft, ohne 0 Leben zu erreichen, wird ihm auf einem letzten Screen angezeigt, wie viele Leben er noch hatte. 
 
@@ -79,11 +114,11 @@ Wir haben uns dazu entschieden, die Fragen in einer festgelgten Reihenfolge und 
 
 Damit sich die Namen der einzelnen Screens, Buttons etc. nicht in den Projekten doppeln, haben wir beim Quiz alles ab 101 (screen101, button101, picture101) benannt, beim Psychotest haben wir normal mit 1 begonnen. 
 
-### Design
+### <a name="10"></a> Design
 
 Passend zum Thema Marvel und dessen typischen Designs haben wir ausschlißlich schwarze Screens mit weißer SChrift verwendet und diese zum einen mit dem MArvel-Logo sowie mit Bildern ergänzt. 
 
-### Screens
+### <a name="10"></a> Screens
 
 Das Quiz setzt sich aus insgesamt 26 Screens zusammen. 
 
@@ -157,25 +192,25 @@ Wird FRAGE20 richtig beantwortet, folgt statt des nächsten Fragescreens der Scr
 
 <img width="522" alt="Bildschirmfoto 2019-04-12 um 17 56 41" src="https://user-images.githubusercontent.com/42578525/56050514-67b00f80-5d4c-11e9-982b-af9e2fe2f7cc.png">
 
-### Ende des Quiz
+### <a name="10"></a> Ende des Quiz
 
 Wie oben erklärt wird  bei jeder falschen Antwort eins der zehn Leben abgezogen. Sind keine Leben mehr vorhanden endet das Spiel, ansonsten kann der Spieler das Quiz durchspielen, bis er alle 20 Fragen beantwortet hat. 
 
-## WELCHER MARVELHELD BIST DU?
+## <a name="10"></a> WELCHER MARVELHELD BIST DU?
 
 Nun werden wir näher auf unseren Psychotest "Welcher Marvelheld bist du?" eingehen. 
 
-### Konzept
+### <a name="10"></a> Konzept
 
 Neben unserem Quiz wollten wir zusätzliche etwas programmieren, was nicht  nur das Wissen des Spielers testet, sondern auch Spaß macht. So kamen wir auf die Idee des Psychotests.
 
 Das Konzept ist einfach: Der Spieler beantwortet zehn Fragen mit je acht Antwortmöglichkeiten, die je für einen Helden stehen. Für jeden Helden ist eine bestimmte Punktzahl festgelegt, die zu einem für den Spieler nicht sichtbaren Score addiert wird. Am Ende wird dieser ausgewertet, das heißt, je nachdem wie viele Punkte der Spieler erreicht hat, erhält er ein anderes Ergbenis.
 
-### Design
+### <a name="10"></a> Design
 
 Wie auch das Quiz ist der Psychotest vollständig schwarz mit weißer Schrift gestaltet. Auf den Fragescreens sind keine Bilder, jeodch ist bei den Ergebnissen jeweils der jeweilige Superheld abgebildet. 
 
-### Screens
+### <a name="10"></a> Screens
 
 Der Psychotest setzt sich aus 21 Screens zusammen. Die ersten beiden sind erneut Homescreen (home-psychotest) und Anleitung (screen12). 
 
@@ -198,7 +233,7 @@ Zusätzlich gibt es vor den möglichen Antwortscreens (s. Helden, mögliche Erge
 
 <img width="298" alt="Bildschirmfoto 2019-04-12 um 20 32 30" src="https://user-images.githubusercontent.com/42578525/56058608-1e6aba80-5d62-11e9-8323-9135057423eb.png">
 
-### Helden (mögliche Ergebnisse)
+### <a name="10"></a> Helden (mögliche Ergebnisse)
 
 Die folgende Tabelle zeigt die acht Helden mit ihren wichtigsten Eigenschaften sowie den Faktor um den sich der Score erhöht, wenn ihre Antwort geklickt wird. 
 
@@ -231,7 +266,7 @@ Somit ergeben sich die folgenden Ergebnisschreens, die jeweils mit einem kurzen 
 
 <img width="298" alt="Bildschirmfoto 2019-04-12 um 20 36 32" src="https://user-images.githubusercontent.com/42578525/56058807-c2ecfc80-5d62-11e9-8a00-5a6f363f2b62.png"> <img width="297" alt="Bildschirmfoto 2019-04-12 um 20 36 53" src="https://user-images.githubusercontent.com/42578525/56058808-c2ecfc80-5d62-11e9-83eb-1f2ce056fd7c.png">
 
-### Code 
+### <a name="10"></a> Code 
 
 Der erste Block des Codes ist genauso aufgebaut wie der des Quiz, da auch hier definiert wird, dass beim Anklicken der Buttons erst der Homescreen des Psychotests und dann die Anleitung gezeigt werden soll. DAbei werden genau dieselben onEvent-Befehle wie oben genutzt, daher werden wir sie hier nicht nocheinmal erklären.
 
@@ -252,7 +287,7 @@ Entscheidend ist die Auswertung des Psychotest. Dabei wurde festgelegt bei welch
 <img width="678" alt="Bildschirmfoto 2019-04-12 um 20 50 22" src="https://user-images.githubusercontent.com/42578525/56059725-05afd400-5d65-11e9-8812-6e8394622ad3.png">
 <img width="655" alt="Bildschirmfoto 2019-04-12 um 20 50 31" src="https://user-images.githubusercontent.com/42578525/56059726-06486a80-5d65-11e9-9099-c886aea16411.png">
 
-DAzu wurde der die Kombination der Befehle if() (wenn...) und setScreen genutzt. Die Werte lauten wiefolgt: 
+Dazu wurde der die Kombination der Befehle if() (wenn...) und setScreen genutzt. Die Werte lauten wiefolgt: 
 
 Score > 0 : Loki
 
@@ -275,7 +310,7 @@ Die Werte sind etwas unregelmäßig, da nicht alle Fragen genau acht Antworten h
 Auf den Ergebnisscreens befindet sich jeweils ein "Home"-Button, der mithilfe des bereits mehrfach beschriebenen onEvent-Blocks zurück zum Homescreen der App führt. 
 
 
-## Teilen der App
+## <a name="10"></a> Teilen der App
 
 Oben links befindet sich ein "Teilen"-Button mit dessen Hilfe man einen Link teilen kann, der zu der App in einer anderen Ansicht führt: 
 
@@ -285,9 +320,16 @@ Der Link kann auch mit Smartphones geteilt und die App dort gespielt werden:
 
 ![66783af5-3e1b-414f-b3df-24ddaa011dd6](https://user-images.githubusercontent.com/42578525/56061362-7fe25780-5d69-11e9-85f6-1b0544ea541e.JPG)
 
-## Fazit
+## <a name="10"></a> Fazit
 
-Abschließend lässt sich sagen, dass uns das Programmieren sehr viel Spaß gemacht hat und wir mit dem Ergebnis sehr zufrienden sind
+Abschließend lässt sich sagen, dass uns das Programmieren sehr viel Spaß gemacht hat und wir mit dem Ergebnis wirklich zufrienden sind. Im Gegensatz zu unserem letzten Projekt konnten wir dieses Mal auch viel designen und zudem war das Thema für uns beide sehr interessant. Besonders schön fanden wir es, dass wir unsere App nun tatsächlich auf dem Handy spielen könne. Auch wenn wir einen Punkte nicht so umsetzen konnten, wie wir ursprünglich wollten, sind wir stolz, da wir dieses Projekt ohne Hilfe programmieren konnten.
+
+Zudem war es sehr interessant, diese neuen Aspekte in Bezug auf Verarbietung von Informationen zu bearbeiten und sich dmit auseinanderzusetzten. Isgesamt hat uns dieses Projekt besser gefallen als unser erstes, auch da AppLAb so ansprechend und übersichtlich ist. 
+
+## <a name="10"></a> Stundenblog 
+
+Für einen detaillierten Einblick in unseren Arbeitsprozess findet sich anbei der Link zu unserem Stundenblog, indem wir jede Stunde unsere Arbeitsschritte festgehalten und beschrieben haben: 
+https://github.com/HelenAndPaula/Stundenblog-2
 
 
 
