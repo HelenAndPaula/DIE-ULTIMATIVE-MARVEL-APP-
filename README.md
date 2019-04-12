@@ -9,6 +9,15 @@
 
 [2.   Programm](#2)
 
+<details><summary>anzeigen</summary>
+<p>
+ 
+ [2.1   Code-Bereich](#4.1)
+
+[2.2  Entwurf-Bereich](#4.2)
+
+</details>
+
 [3.   Homescreen  ](#3)
 
 [4.   Das ultimative Marvel-Quiz](#4)
@@ -16,41 +25,41 @@
 <details><summary>anzeigen</summary>
 <p>
  
- [4.1   Konzept](#5)
+ [4.1   Konzept](#4.1)
 
-[4.2  Design](#6)
+[4.2  Design](#4.2)
 
-[4.3   Screens](#7)
+[4.3   Screens](#4.3)
  
-[4.4  Code](#8)
+[4.4  Code](#4.4)
 
-[4.5  Ende des Quiz](#9)</details>
+[4.5  Ende des Quiz](#4.5)</details>
 
-[5.   Welcher Marvelheld? bist du](#10)
+[5.   Welcher Marvelheld? bist du](#5)
 
 <details><summary>anzeigen</summary>
 <p>
  
-[5.1   Konzept](#11)
+[5.1   Konzept](#5.1)
 
-[5.2   Design](#12)
+[5.2   Design](#5.2)
 
-[5.3    Screens](#13)
+[5.3    Screens](#5.3)
 
-[5.4   Helden / mögliche Ergebnisse](#14)
+[5.4   Helden / mögliche Ergebnisse](#5.4)
 
-[5.5  Code](#15)</details>
+[5.5  Code](#5.5)</details>
 
-[6.   Teilen der App](#15)
+[6.   Teilen der App](#6)
 
-[7.  Fazit](#15)
+[7.  Fazit](#7)
 
-[8.    Stundenblog](#15)
+[8.    Stundenblog](#8)
 </details>
 
 <img width="613" alt="Bildschirmfoto 2019-04-12 um 15 03 21" src="https://user-images.githubusercontent.com/42578525/56039348-696dd900-5d34-11e9-8e44-37e9bd882d29.png">
 
-## <a name="10"></a> Idee
+## <a name="1"></a> Idee
 
 Die Aufgabenstellung für unser zweites Projekt war recht frei gestellt, jedoch sollte sich das Projekt auf die Verarbeitung 
 von Informationen beziehen. Das letzte Projekt haben wir mit SNAP! programmiert, diese Mal haben wir uns für AppLab von 
@@ -58,21 +67,21 @@ Code.org (https://studio.code.org) entschieden, da wir es spannend fanden, eine 
 
 In Bezug auf die Aufgabenstellung haben wir zunächst überlegt, inwiefern unsere App verschiedene Informationen enthalten und 
 verarbeiten könnte. Unsere erste Idee war ein Quiz, bei dem der Spieler aus verschiedenen Antwortmöglichkeiten wählen kann und 
-dafür Punkte bekommt. Wir entschieden uns diese Idee weiter auszubauen. Als Thema entschieden wir uns für das Marvel Cinematic Universe (MCU), da wir beide diese Filme sehr gern gucken und uns recht gut mit der Thematik auskennen. Somit erschien und das Thema als optimal, nicht zuletzt, da sich viele Menschen dafür begeistern und unsere App somit vielen Leuten gefallen bzw. sie ansprechen könnte. 
+dafür Punkte bekommt. Wir entschieden uns diese Idee weiter auszubauen. Als Thema entschieden wir uns für das Marvel Cinematic Universe (MCU), da wir beide diese Filme sehr gern gucken und uns recht gut mit der Thematik auskennen. Somit erschien uns das Thema als optimal, nicht zuletzt, da sich viele Menschen dafür begeistern und unsere App somit vielen Leuten gefallen bzw. sie ansprechen könnte. 
 
 Neben dem Quiz entschieden wir uns für einen Psychotest, bei dem der Spieler testen kann, welchem Helden des MCU er am ähnlichsten ist.
 
-## <a name="10"></a> Programm
+## <a name="2"></a> Programm
 
 Während wir bei unserem letzten Projekt mit SNAP! gearbeitet haben, sind wir für dieses zweite Projekt auf Code.org umgestiegen und haben AppLab von Code.org zur Programmierung unserer App genutzt. 
 
-Code ist eine 2013 gegründete US-amerikanische Non-Profit-Organisation, deren Ziel es ist, besonders Kinder und Jugendliche für das Programmieren zu begeistern. AppLAp ist frei verfügbar, mann muss jedoch ein Konto mit der eigenen E-Mail-Adresse erstellen. 
+Code ist eine 2013 gegründete US-amerikanische Non-Profit-Organisation, deren Ziel es ist, besonders Kinder und Jugendliche für das Programmieren zu begeistern. AppLAp ist frei verfügbar, mann muss jedoch ein Konto mit der eigenen E-Mail-Adresse erstellen. Zudem lässt sich die Sprach verstellen, wor haben sei jedoch auf Englisch belassen, da wir letztes Halbjahr auch auf Englisch programmiert hatten. 
 
-AppLab basiert auf der Programmiersprache Java f und eignet sich sowohl für Einsteiger als auch für etwas fortgeschrittenere Programmierer, da man sowohl sehr übersichtlich farblich voneiander abgegerenzte Blöcke verwenden als auch direkt JavaScript als Text programmieren kann. Dabei sind alle Befehle in Englisch verfasst. Das Programm ist sehr modern und farenfroh gestaltet und ermöglicht es sogar, die programmierte App direkt mit anderen zu teilen und auf ein Handy zu schicken, sodass sie dort gespielt werden kann. 
+AppLab basiert auf der Programmiersprache Java f und eignet sich sowohl für Einsteiger als auch für etwas fortgeschrittenere Programmierer, da man sowohl sehr übersichtlich farblich voneinander abgegerenzte Blöcke verwenden als auch direkt JavaScript als Text programmieren kann. Dabei sind alle Befehle in Englisch verfasst. Das Programm ist sehr modern und farbenfroh gestaltet und ermöglicht es sogar, die programmierte App direkt mit anderen zu teilen und auf ein Handy zu schicken, sodass sie dort gespielt werden kann. 
 
 AppLab gliedert sich in zwei Hauptbereiche: Den "Code"- und den "Entwurf"-Bereich. Zudem gibt es noch einen Data-Bereich, den wir jedoch nicht verwendet haben. 
 
-### Code-Bereich
+### <a name="2.1"></a> Code-Bereich
 
 <img width="1280" alt="Bildschirmfoto 2019-04-12 um 15 50 05" src="https://user-images.githubusercontent.com/42578525/56042304-092e6580-5d3b-11e9-8018-a25cfcb6433b.png">
 
@@ -86,39 +95,39 @@ Davon haben wir besonders folgende benutzt:
 
 Ul-Controls (gelb): Mit diesen Blöcken lassen sich verschiedene Vorgänge definieren, so zum Beispiel was beim Anklicken eines               bestimmten Knopfes geschieht oder wann welcher Screen gesetzt wird. 
 
-Control (blau) : Mit diesen Blöcken lassen sich vorallem if-Schleifen programmieren, was  besonders beim Psychotest nötig war.
+Control (blau) : Mit diesen Blöcken lassen sich vor allem if-Schleifen programmieren, was  besonders beim Psychotest nötig war.
 
-Variables (lila): Hier lassen sich Variabeln definieren und im Laufe des Spiels verändern.
+Variables (lila): Hier lassen sich Variablen definieren und im Laufe des Spiels verändern.
 
-Math (orange): Diese Blöcke enthalten vorallem die Funktion von Rechenzeichen, sodass zum Beispiel gesetzte Varaibeln um bestimmte Faktoren erhöht werden können. 
+Math (orange): Diese Blöcke enthalten vorallem die Funktion von Rechenzeichen, sodass zum Beispiel gesetzte Variabeln um bestimmte Faktoren erhöht werden können. 
 
-Sehr hilfreich ist zudem dass Fehler dorekt angezeigt werden und es eine Debug-Console gibt, in denen Fehler angezeigt werden, z.B. wenn man einen Button im Code falsch benannt hat.
+Sehr hilfreich ist zudem, dass Fehler direkt angezeigt werden und es eine Debug-Console gibt, in denen Fehler angezeigt werden, z.B. wenn man einen Button im Code falsch benannt hat.
 
 <img width="1015" alt="Bildschirmfoto 2019-04-12 um 21 10 29" src="https://user-images.githubusercontent.com/42578525/56060668-ce8ef200-5d67-11e9-83a6-05f9ccbbcad8.png">
 
 Zusätzlich werden Fehler direkt an den Blöcken durch rote Quadrate angezeigt. 
 
-### Entwurf-Bereich
+### <a name="2.2"></a> Entwurf-Bereich
 
 <img width="1280" alt="Bildschirmfoto 2019-04-12 um 15 50 21" src="https://user-images.githubusercontent.com/42578525/56043156-fa48b280-5d3c-11e9-8541-44c2bb5aa822.png">
 
-AppLAb besticht neben dem übersichtlich AUfbau auch über den Entwurf- nzw. Design-Bereich, in dem die einzelnen Screens auf viele verschiedene Weisen designt werden können. So kann zum Beispiel die Hintergrundfarbe festgelegt werden und es könne zahlreiche Dinge eingefügt werden: 
+AppLAb besticht neben dem übersichtlich Aufbau auch über den Entwurf- bzw. Design-Bereich, in dem die einzelnen Screens auf viele verschiedene Weisen designt werden können. So kann zum Beispiel die Hintergrundfarbe festgelegt werden und es können zahlreiche Dinge eingefügt werden: 
 
 <img width="254" alt="Bildschirmfoto 2019-04-12 um 16 32 07" src="https://user-images.githubusercontent.com/42578525/56044954-8d371c00-5d40-11e9-8d6a-7960765d0906.png">
 
 So können zum Beispiel Textfelder, Knöpfe (Buttons) und Bilder problemlos per Drag'n'Drop eingefügt werden. Diese Möglichkeiten machen die App besonders ansprechend. 
 
-## <a name="10"></a> HOMESCREEN 
+## <a name="3"></a> HOMESCREEN 
 
-Da sich unsere App aus zwei verschiedenen Teilen (Quiz, Psychotest) zusammensetzt, haben wir zunächst einen Homescreen gestaltet und programmiert, von dem aus der Spieler entweder zum Quiz oder zum Psychotest gelangt. Die Programmierung wird unten beschrieben. Neben den beiden Buttons die zwischen Quiz und Test unterschieden, enthät der Homescreen das Marvel-Logi sowie den Namen der App.
+Da sich unsere App aus zwei verschiedenen Teilen (Quiz, Psychotest) zusammensetzt, haben wir zunächst einen Homescreen gestaltet und programmiert, von dem aus der Spieler entweder zum Quiz oder zum Psychotest gelangt. Die Programmierung wird unten beschrieben. Neben den beiden Buttons, die zwischen Quiz und Test unterscheiden, enthält der Homescreen das Marvel-Logo sowie den Namen der App.
 
 <img width="319" alt="Bildschirmfoto 2019-04-12 um 19 28 47" src="https://user-images.githubusercontent.com/42578525/56055291-7224d600-5d59-11e9-9541-1c901ad15d68.png">
 
-## <a name="10"></a> DAS ULTIMATIVE MARVEL-QUIZ 
+## <a name="4"></a> DAS ULTIMATIVE MARVEL-QUIZ 
 
 Nun wollen wir genauer auf unser Quiz eingehen und erklären wie wir es programmiert haben.
 
-### <a name="10"></a> Konzept
+### <a name="4.1"></a> Konzept
 
 Das Konzept des Quiz ist recht einfach. Wir haben uns insgesamt 20 Fragen mit vier Antwortmöglichkeiten überlegt, von denen je eine richtig ist. Zudem haben wir uns entschieden, dass es zwei verschiedene Screens (gewonnen, verloren) gibt, die dem Spieler nach jeder Frage angezeigt werden, jenachdem, ob er die Frage richtig oder falsch beantwortet hat. Hat er sie falsch beantwortet, muss er sie solange wiederholen, bis er richtig antwortet. AUs diesem Grund machte ein typisches Punktesystem wenig Sinn, wir entschieden uns für 10 Leben, von denen bei jeder falschen Antwort eins abgezogen wird. Sind alle Leben aufgebraucht, endet das Quiz, wenn der Spieler alle Fragen schafft, ohne 0 Leben zu erreichen, wird ihm auf einem letzten Screen angezeigt, wie viele Leben er noch hatte. 
 
@@ -126,11 +135,11 @@ Wir haben uns dazu entschieden, die Fragen in einer festgelgten Reihenfolge und 
 
 Damit sich die Namen der einzelnen Screens, Buttons etc. nicht in den Projekten doppeln, haben wir beim Quiz alles ab 101 (screen101, button101, picture101) benannt, beim Psychotest haben wir normal mit 1 begonnen. 
 
-### <a name="10"></a> Design
+### <a name="4.2"></a> Design
 
 Passend zum Thema Marvel und dessen typischen Designs haben wir ausschlißlich schwarze Screens mit weißer SChrift verwendet und diese zum einen mit dem MArvel-Logo sowie mit Bildern ergänzt. 
 
-### <a name="10"></a> Screens
+### <a name="4.3"></a> Screens
 
 Das Quiz setzt sich aus insgesamt 26 Screens zusammen. 
 
@@ -172,7 +181,7 @@ Hinzu kommen noch die zwei möglichen Endscreens: der verloren-Screen, der auftr
 
 <img width="299" alt="Bildschirmfoto 2019-04-12 um 17 17 31" src="https://user-images.githubusercontent.com/42578525/56048198-48fb4a00-5d47-11e9-823c-a5ee67543391.png"> <img width="295" alt="Bildschirmfoto 2019-04-12 um 17 20 20" src="https://user-images.githubusercontent.com/42578525/56048200-4993e080-5d47-11e9-9440-338d0f19df7a.png">
 
-### Code
+### <a name="4.4"></a>Code
 
 Vor dem Quiz gibt es einen Homescreen, auf dem der Spieler zwischen Quiz und Psychotest entscheidet. Klickt er auf "Quiz" (buttonquiz), so werden die Befehle für das Quiz genutzt. Um dies zu definieren wird der Block "onEvent" genutzt und als ID der Button buttonquiz angegeben und unter diesem Block alle anderen Befehle des Quiz angeordnet. 
 
@@ -204,25 +213,25 @@ Wird FRAGE20 richtig beantwortet, folgt statt des nächsten Fragescreens der Scr
 
 <img width="522" alt="Bildschirmfoto 2019-04-12 um 17 56 41" src="https://user-images.githubusercontent.com/42578525/56050514-67b00f80-5d4c-11e9-982b-af9e2fe2f7cc.png">
 
-### <a name="10"></a> Ende des Quiz
+### <a name="4.5"></a> Ende des Quiz
 
 Wie oben erklärt wird  bei jeder falschen Antwort eins der zehn Leben abgezogen. Sind keine Leben mehr vorhanden endet das Spiel, ansonsten kann der Spieler das Quiz durchspielen, bis er alle 20 Fragen beantwortet hat. 
 
-## <a name="10"></a> WELCHER MARVELHELD BIST DU?
+## <a name="5"></a> WELCHER MARVELHELD BIST DU?
 
 Nun werden wir näher auf unseren Psychotest "Welcher Marvelheld bist du?" eingehen. 
 
-### <a name="10"></a> Konzept
+### <a name="5.1"></a> Konzept
 
 Neben unserem Quiz wollten wir zusätzliche etwas programmieren, was nicht  nur das Wissen des Spielers testet, sondern auch Spaß macht. So kamen wir auf die Idee des Psychotests.
 
 Das Konzept ist einfach: Der Spieler beantwortet zehn Fragen mit je acht Antwortmöglichkeiten, die je für einen Helden stehen. Für jeden Helden ist eine bestimmte Punktzahl festgelegt, die zu einem für den Spieler nicht sichtbaren Score addiert wird. Am Ende wird dieser ausgewertet, das heißt, je nachdem wie viele Punkte der Spieler erreicht hat, erhält er ein anderes Ergbenis.
 
-### <a name="10"></a> Design
+### <a name="5.2"></a> Design
 
 Wie auch das Quiz ist der Psychotest vollständig schwarz mit weißer Schrift gestaltet. Auf den Fragescreens sind keine Bilder, jeodch ist bei den Ergebnissen jeweils der jeweilige Superheld abgebildet. 
 
-### <a name="10"></a> Screens
+### <a name="5.3"></a> Screens
 
 Der Psychotest setzt sich aus 21 Screens zusammen. Die ersten beiden sind erneut Homescreen (home-psychotest) und Anleitung (screen12). 
 
@@ -245,7 +254,7 @@ Zusätzlich gibt es vor den möglichen Antwortscreens (s. Helden, mögliche Erge
 
 <img width="298" alt="Bildschirmfoto 2019-04-12 um 20 32 30" src="https://user-images.githubusercontent.com/42578525/56058608-1e6aba80-5d62-11e9-8323-9135057423eb.png">
 
-### <a name="10"></a> Helden (mögliche Ergebnisse)
+### <a name="5.4"></a> Helden (mögliche Ergebnisse)
 
 Die folgende Tabelle zeigt die acht Helden mit ihren wichtigsten Eigenschaften sowie den Faktor um den sich der Score erhöht, wenn ihre Antwort geklickt wird. 
 
@@ -278,7 +287,7 @@ Somit ergeben sich die folgenden Ergebnisschreens, die jeweils mit einem kurzen 
 
 <img width="298" alt="Bildschirmfoto 2019-04-12 um 20 36 32" src="https://user-images.githubusercontent.com/42578525/56058807-c2ecfc80-5d62-11e9-8a00-5a6f363f2b62.png"> <img width="297" alt="Bildschirmfoto 2019-04-12 um 20 36 53" src="https://user-images.githubusercontent.com/42578525/56058808-c2ecfc80-5d62-11e9-83eb-1f2ce056fd7c.png">
 
-### <a name="10"></a> Code 
+### <a name="5.5"></a> Code 
 
 Der erste Block des Codes ist genauso aufgebaut wie der des Quiz, da auch hier definiert wird, dass beim Anklicken der Buttons erst der Homescreen des Psychotests und dann die Anleitung gezeigt werden soll. DAbei werden genau dieselben onEvent-Befehle wie oben genutzt, daher werden wir sie hier nicht nocheinmal erklären.
 
@@ -322,7 +331,7 @@ Die Werte sind etwas unregelmäßig, da nicht alle Fragen genau acht Antworten h
 Auf den Ergebnisscreens befindet sich jeweils ein "Home"-Button, der mithilfe des bereits mehrfach beschriebenen onEvent-Blocks zurück zum Homescreen der App führt. 
 
 
-## <a name="10"></a> Teilen der App
+## <a name="6"></a> Teilen der App
 
 Oben links befindet sich ein "Teilen"-Button mit dessen Hilfe man einen Link teilen kann, der zu der App in einer anderen Ansicht führt: 
 
@@ -332,13 +341,13 @@ Der Link kann auch mit Smartphones geteilt und die App dort gespielt werden:
 
 ![66783af5-3e1b-414f-b3df-24ddaa011dd6](https://user-images.githubusercontent.com/42578525/56061362-7fe25780-5d69-11e9-85f6-1b0544ea541e.JPG)
 
-## <a name="10"></a> Fazit
+## <a name="6"></a> Fazit
 
 Abschließend lässt sich sagen, dass uns das Programmieren sehr viel Spaß gemacht hat und wir mit dem Ergebnis wirklich zufrienden sind. Im Gegensatz zu unserem letzten Projekt konnten wir dieses Mal auch viel designen und zudem war das Thema für uns beide sehr interessant. Besonders schön fanden wir es, dass wir unsere App nun tatsächlich auf dem Handy spielen könne. Auch wenn wir einen Punkte nicht so umsetzen konnten, wie wir ursprünglich wollten, sind wir stolz, da wir dieses Projekt ohne Hilfe programmieren konnten.
 
 Zudem war es sehr interessant, diese neuen Aspekte in Bezug auf Verarbietung von Informationen zu bearbeiten und sich dmit auseinanderzusetzten. Isgesamt hat uns dieses Projekt besser gefallen als unser erstes, auch da AppLAb so ansprechend und übersichtlich ist. 
 
-## <a name="10"></a> Stundenblog 
+## <a name="8"></a> Stundenblog 
 
 Für einen detaillierten Einblick in unseren Arbeitsprozess findet sich anbei der Link zu unserem Stundenblog, indem wir jede Stunde unsere Arbeitsschritte festgehalten und beschrieben haben: 
 https://github.com/HelenAndPaula/Stundenblog-2
