@@ -235,4 +235,6 @@ Die einzelnen Fragescreens sind ebenfalls gleich programmiert. Daher werden wir 
 <img width="616" alt="Bildschirmfoto 2019-04-12 um 20 42 18" src="https://user-images.githubusercontent.com/42578525/56059078-8372e000-5d63-11e9-8b30-b7c9f4471865.png">
 <img width="573" alt="Bildschirmfoto 2019-04-12 um 20 42 26" src="https://user-images.githubusercontent.com/42578525/56059079-840b7680-5d63-11e9-876a-08df7418e5d7.png">
 
+Mit Beginn der ersten Frage wird zunächst eine neue Variable "score" eingeführt und mithilfe des Befehls "var"score"=0" gleich 0 gesetzt. 
 
+Danach folgen jeweils onEvent-Blöcke, die definieren was beim anklicken der jeweiligen Buttons passiert. Button8 zum Beispiel definiert die Antwort für Captain America, der Score muss also um 4 erhöht werden. Dazu wird unter den onEvent-Befehl ("button9",click) ein Variablenblock gesetzt, der in Kombination mit einem Math-Block die Erhöhung des Scores um 4 definiert: "score=score+4". Wie auch beim Quiz wird dann ein Textfeld, welches jedoch nicht für den Spieler sichtbar ist (schwarze Schrift auf schwarzem Hintergrund", mit dem Score gleichgesetzt (setText, s. oben). Dies wird für jede Antowrtmöglichkeit und bei allen Fragescreens so gemacht. Dabei gilt immer "score=score+x", wobei x die für die Figur festgelegte Zahl ist. SOmit ergibt sich für Frage 1 der im Bild gezeigte Code. 
