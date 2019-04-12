@@ -113,6 +113,13 @@ Hinzu kommen noch die zwei möglichen Endscreens: der verloren-Screen, der auftr
 
 ### Code
 
-#### Fragescreens
+Vor dem Quiz gibt es einen Homescreen, auf dem der Spieler zwischen Quiz und Psychotest entscheidet. Klickt er auf "Quiz" (buttonquiz), so werden die Befehle für das Quiz genutzt. Um dies zu definieren wird der Block "onEvent" genutzt und als ID der Button buttonquiz angegeben und unter diesem Block alle anderen Befehle des Quiz angeordnet. 
+
+<img width="566" alt="Bildschirmfoto 2019-04-12 um 17 23 04" src="https://user-images.githubusercontent.com/42578525/56049084-0175bd80-5d49-11e9-9d36-a9278205c76e.png">
+
+Bevor das eigentliche Quit beginnt, gibt es einen ersten Befehlsblock, der für den Quizhomescreen und die Anleitung zuständig ist. Wird buttonquiz angeklickt, so soll der Homescreen des Quiz erschienen. Dazu dient der Befehl "setScreen", auf den  ein weitere onEvent-Screen folgt, der definiert, dass der button102 (Anleitung) verursacht, dass der Anleitungsscreen gezeigt wird. Auf diese Weise (onEvent+setScreen) funktionieren eingntlich alle Buttons im Quiz. 
+
+Zusätzlich wird im ersten Block durch den Befehl var"leben"=10 die VAriable Leben gesetzt und auf 10 definiert. Jeder Screen verfügt rechts oben in der Ecke über ein Textfeld (leben1 bis leben20) indem jeweils die Lebensanzahl als Text gesetzt ist. Dazu dient der Befehl setText"leben1",leben, also wird das Textfeld (ID variiert je nach Screen (leben1 - leben20)) immer gleich der Variablen "leben", also der Anzahl der Leben gesetzt. Dieser Befehl zieht sich durch alle Screens, wir werden ihn jedoch nur hier erklären. 
+
 
 
