@@ -171,14 +171,20 @@ Wie auch das Quiz ist der Psychotest vollständig schwarz mit weißer Schrift ge
 
 Die folgende Tabelle zeigt die acht Helden mit ihren wichtigsten Eigenschaften sowie den FAktor um den sich der Score erhöht, wenn ihre Antwort geklickt wird. 
 
-Loki:             Antiheld, Bruder von Thor, hinterhältig              Score +1
-Thor:             stark, mächtig, unsterblich, Gott des Donners        Score +2
-Iron Man:         Technik, reich, von sich selbst überzeugt            Score +3
-Captain America:  mutig, sportlich, stur                               Score +4
-Scarlet Witch:    Magische Fähigkeiten durch Experimente               Score +5
-Black Widow:      Agentin, Nahkampf, kein Vertrauen                    Score +6
-Groot:            ich bin Groot                                        Score +7
-Spiderman:        mutig, Naturwissenschaften, unerfahren               Score +8
+Loki: Antiheld, Bruder von Thor, hinterhältig (Score +1)
+
+Thor: stark, mächtig, unsterblich, Gott des Donners (Score +2)
+
+Iron Man:Technik, reich, von sich selbst überzeugt (Score +3)
+Captain America:  mutig, sportlich, stur                               (Score +4)
+
+Scarlet Witch:    Magische Fähigkeiten durch Experimente               (Score +5)
+
+Black Widow:      Agentin, Nahkampf, kein Vertrauen                    (Score +6)
+
+Groot:            ich bin Groot                                        (Score +7)
+
+Spiderman:        mutig, Naturwissenschaften, unerfahren               (Score +8)
 
 
 
