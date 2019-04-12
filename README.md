@@ -17,11 +17,13 @@ Neben dem Quiz entschieden wir uns für einen Psychotest, bei dem der Spieler te
 
 ## Programm
 
-Während wir bei unserem letzten Projekt mit SNAP! gearbeitet haben, sind wir für dieses zweite Projekt auf Code.org umgestiegen und haben AppLab zur Programmierung unserer App genutzt. 
+Während wir bei unserem letzten Projekt mit SNAP! gearbeitet haben, sind wir für dieses zweite Projekt auf Code.org umgestiegen und haben AppLab von Code.org zur Programmierung unserer App genutzt. 
 
-AppLab funktioniert mit einer visuellen Programmiersprache und eignet sich sowohl für Einsteiger als auch für etwas fortgeschrittenere Programmierer, da man sowohl Blöcke verwenden als auch direkt JavaScript als Text programmieren kann. Dabei sind alle Befehle in Englisch verfasst. Das Programm ist sehr modern und farenfroh gestaltet und ermöglicht es sogar, die programmierte App direkt mit anderen zu teilen und auf ein Handy zu schicken, sodass sie dort gespielt werden kann. 
+Code ist eine 2013 gegründete US-amerikanische Non-Profit-Organisation, deren Ziel es ist, besonders Kinder und Jugendliche für das Programmieren zu begeistern. AppLAp ist frei verfügbar, mann muss jedoch ein Konto mit der eigenen E-Mail-Adresse erstellen. 
 
-AppLab gliedert sich in zwei Hauptbereiche: Den "Code"- und den "Entwurf"-Bereich.
+AppLab basiert auf der Programmiersprache Java f und eignet sich sowohl für Einsteiger als auch für etwas fortgeschrittenere Programmierer, da man sowohl sehr übersichtlich farblich voneiander abgegerenzte Blöcke verwenden als auch direkt JavaScript als Text programmieren kann. Dabei sind alle Befehle in Englisch verfasst. Das Programm ist sehr modern und farenfroh gestaltet und ermöglicht es sogar, die programmierte App direkt mit anderen zu teilen und auf ein Handy zu schicken, sodass sie dort gespielt werden kann. 
+
+AppLab gliedert sich in zwei Hauptbereiche: Den "Code"- und den "Entwurf"-Bereich. Zudem gibt es noch einen Data-Bereich, den wir jedoch nicht verwendet haben. 
 
 ### Code-Bereich
 
@@ -42,6 +44,12 @@ Control (blau) : Mit diesen Blöcken lassen sich vorallem if-Schleifen programmi
 Variables (lila): Hier lassen sich Variabeln definieren und im Laufe des Spiels verändern.
 
 Math (orange): Diese Blöcke enthalten vorallem die Funktion von Rechenzeichen, sodass zum Beispiel gesetzte Varaibeln um bestimmte Faktoren erhöht werden können. 
+
+Sehr hilfreich ist zudem dass Fehler dorekt angezeigt werden und es eine Debug-Console gibt, in denen Fehler angezeigt werden, z.B. wenn man einen Button im Code falsch benannt hat.
+
+<img width="1015" alt="Bildschirmfoto 2019-04-12 um 21 10 29" src="https://user-images.githubusercontent.com/42578525/56060668-ce8ef200-5d67-11e9-83a6-05f9ccbbcad8.png">
+
+Zusätzlich werden Fehler direkt an den Blöcken durch rote Quadrate angezeigt. 
 
 ### Entwurf-Bereich
 
@@ -125,7 +133,7 @@ Vor dem Quiz gibt es einen Homescreen, auf dem der Spieler zwischen Quiz und Psy
 
 Bevor das eigentliche Quit beginnt, gibt es einen ersten Befehlsblock, der für den Quizhomescreen und die Anleitung zuständig ist. Wird buttonquiz angeklickt, so soll der Homescreen des Quiz erschienen. Dazu dient der Befehl "setScreen", auf den  ein weitere onEvent-Screen folgt, der definiert, dass der button102 (Anleitung) verursacht, dass der Anleitungsscreen gezeigt wird. Auf diese Weise (onEvent+setScreen) funktionieren eingntlich alle Buttons im Quiz. 
 
-Zusätzlich wird im ersten Block durch den Befehl var"leben"=10 die VAriable Leben gesetzt und auf 10 definiert. Jeder Screen verfügt rechts oben in der Ecke über ein Textfeld (leben1 bis leben20) indem jeweils die Lebensanzahl als Text gesetzt ist. Dazu dient der Befehl setText"leben1",leben, also wird das Textfeld (ID variiert je nach Screen (leben1 - leben20)) immer gleich der Variablen "leben", also der Anzahl der Leben gesetzt. Dieser Befehl zieht sich durch alle Screens, wir werden ihn jedoch nur hier erklären. 
+Zusätzlich wird im ersten Block durch den Befehl var"leben"=10 die Variable Leben gesetzt und auf 10 definiert. Entschiedn ist, dass die Variable definiert wird bevor sie verwendet wird. Jeder Screen verfügt rechts oben in der Ecke über ein Textfeld (leben1 bis leben20) indem jeweils die Lebensanzahl als Text gesetzt ist. Dazu dient der Befehl setText"leben1",leben, also wird das Textfeld (ID variiert je nach Screen (leben1 - leben20)) immer gleich der Variablen "leben", also der Anzahl der Leben gesetzt. Dieser Befehl zieht sich durch alle Screens, wir werden ihn jedoch nur hier erklären. 
 
 Da alle Fragescreens in der Programmierung bis auf Abweichungen in den Bezeichnungen identisch sind, werden wird dies anhand des ersten Fragescreens darlegen. Zu Übersichtszwecken haben wir die Programmierung mit Kommentaren versehen (FRAGE1, FRAGE2,...). 
 
@@ -135,7 +143,7 @@ Innerhalb der Fragescreens gibt es immer drei gleich programmierte falsche ANtwo
 
 In diesem Beispiel definiert der button103 eine falsche Antwort. Somit soll also ein Leben angezogen werden und der verloren-Screen angezeigt werden. 
 
-Dazu wird erneut ein onEvent-Block gesetzt, der definiert, was beim anklicken (click) von button103 passierren soll. Der Befehl setScreen"verloren" gibt an, dass in diesem Fall der verloren-Screen gezeigt wird. durch den Befehl leben=leben-1 wird definiert, dass ein Leben abgezogen wird, die Variable also um 1 reduziert wird. Darauf folgt immer ein "if"-Control-Block, der angibt, dass wenn leben==0 (also alle Leben verbraucht) der keineLeben-Screen angezeigt wird und dass Spiel endet. Dieser Befehl folgt auf jede Reduzierung der Variable "leben". Damit sich die Angabe der Leben in der Ecke (verloren-Screen: lebenv) anpasst folgt anschließend immer der Befehl setText"lebenv",leben folgen, da dieser den Text mit den reduzierten Leben, also jetzt neun, gleichsetzt. Auf dem verloren-Screen befindet sich der Button "zurück". Dieser ist jedoch untergeordnet, da sonst immer screen101 und nicht der jeweilige Screen gezeigt werden würde.  Durch einen weiteren onEvent-Befehl wird definiert, dass beim anklicken erneut Screen101, also die erste Frage, gezeigt wird und es wird auch hier der Text (leben101) mit der Variablen "leben" gelichgesetzt. Diese Schritte werden auch für die anderen beiden falschen Antworten genutzt, jedoch müssen dort natürlich die Buttons anders bezeichnet werden. 
+Dazu wird erneut ein onEvent-Block gesetzt, der definiert, was beim anklicken (click) von button103 passierren soll. Der Befehl setScreen"verloren" gibt an, dass in diesem Fall der verloren-Screen gezeigt wird. durch den Befehl leben=leben-1 wird definiert, dass ein Leben abgezogen wird, die Variable also um 1 reduziert wird. Darauf folgt immer ein "if"-Control-Block, der angibt, dass wenn leben==0 (also alle Leben verbraucht) der keineLeben-Screen angezeigt wird und dass Spiel endet. Dieser Befehl folgt auf jede Reduzierung der Variable "leben". Damit sich die Angabe der Leben in der Ecke (verloren-Screen: lebenv) anpasst folgt anschließend immer der Befehl "setText"lebenv"",leben folgen, da dieser den Text mit den reduzierten Leben, also jetzt neun, gleichsetzt. Auf dem verloren-Screen befindet sich der Button "zurück". Dieser ist jedoch untergeordnet, da sonst immer screen101 und nicht der jeweilige Screen gezeigt werden würde.  Durch einen weiteren onEvent-Befehl wird definiert, dass beim anklicken erneut Screen101, also die erste Frage, gezeigt wird und es wird auch hier der Text (leben101) mit der Variablen "leben" gelichgesetzt. Diese Schritte werden auch für die anderen beiden falschen Antworten genutzt, jedoch müssen dort natürlich die Buttons anders bezeichnet werden. 
 
 <img width="485" alt="Bildschirmfoto 2019-04-12 um 17 46 24" src="https://user-images.githubusercontent.com/42578525/56049959-ec019300-5d4a-11e9-9183-d3a4861ab93a.png">
 
@@ -264,7 +272,22 @@ Score > 75: Spiderman
 
 Die Werte sind etwas unregelmäßig, da nicht alle Fragen genau acht Antworten haben. 
 
+Auf den Ergebnisscreens befindet sich jeweils ein "Home"-Button, der mithilfe des bereits mehrfach beschriebenen onEvent-Blocks zurück zum Homescreen der App führt. 
 
+
+## Teilen der App
+
+Oben links befindet sich ein "Teilen"-Button mit dessen Hilfe man einen Link teilen kann, der zu der App in einer anderen Ansicht führt: 
+
+<img width="1280" alt="Bildschirmfoto 2019-04-12 um 21 21 13" src="https://user-images.githubusercontent.com/42578525/56061152-ef0b7c00-5d68-11e9-83af-ee4496cf00a4.png">
+
+Der Link kann auch mit Smartphones geteilt und die App dort gespielt werden: 
+
+![66783af5-3e1b-414f-b3df-24ddaa011dd6](https://user-images.githubusercontent.com/42578525/56061362-7fe25780-5d69-11e9-85f6-1b0544ea541e.JPG)
+
+## Fazit
+
+Abschließend lässt sich sagen, dass uns das Programmieren sehr viel Spaß gemacht hat und wir mit dem Ergebnis sehr zufrienden sind
 
 
 
