@@ -121,5 +121,26 @@ Bevor das eigentliche Quit beginnt, gibt es einen ersten Befehlsblock, der für 
 
 Zusätzlich wird im ersten Block durch den Befehl var"leben"=10 die VAriable Leben gesetzt und auf 10 definiert. Jeder Screen verfügt rechts oben in der Ecke über ein Textfeld (leben1 bis leben20) indem jeweils die Lebensanzahl als Text gesetzt ist. Dazu dient der Befehl setText"leben1",leben, also wird das Textfeld (ID variiert je nach Screen (leben1 - leben20)) immer gleich der Variablen "leben", also der Anzahl der Leben gesetzt. Dieser Befehl zieht sich durch alle Screens, wir werden ihn jedoch nur hier erklären. 
 
+Da alle Fragescreens in der Programmierung bis auf Abweichungen in den Bezeichnungen identisch sind, werden wird dies anhand des ersten Fragescreens darlegen. Zu Übersichtszwecken haben wir die Programmierung mit Kommentaren versehen (FRAGE1, FFRAGE2,...). 
+
+Innerhalb der Fragescreens gibt es immer drei gleich programmierte falsche ANtworten sowie eine richtige. Zunächst werden wir die falschen Antworten anhand eines Beispiels erklären:
+
+<img width="518" alt="Bildschirmfoto 2019-04-12 um 17 37 34" src="https://user-images.githubusercontent.com/42578525/56049410-b14b2b00-5d49-11e9-8542-572a372fd206.png">
+
+In diesem Beispiel definiert der button103 eine falsche Antwort. Somit soll also ein Leben angezogen werden und der verloren-Screen angezeigt werden. 
+
+Dazu wird erneut ein onEvent-Block gesetzt, der definiert, was beim anklicken (click) von button103 passierren soll. Der Befehl setScreen"verloren" gibt an, dass in diesem Fall der verloren-Screen gezeigt wird. durch den Befehl leben=leben-1 wird definiert, dass ein Leben abgezogen wird, die Variable also um 1 reduziert wird. Darauf folgt immer ein "if"-Control-Block, der angibt, dass wenn leben==0 (also alle Leben verbraucht) der keineLeben-Screen angezeigt wird und dass Spiel endet. Dieser Befehl folgt auf jede Reduzierung der Variable "leben". Damit sich die Angabe der Leben in der Ecke (verloren-Screen: lebenv) anpasst folgt anschließend immer der Befehl setText"lebenv",leben folgen, da dieser den Text mit den reduzierten Leben, also jetzt neun, gleichsetzt. Auf dem verloren-Screen befindet sich der Button "zurück". Durch einen weiteren onEvent-Befehl wird definiert, dass beim anklicken erneut Screen101, also die erste Frage, gezeigt wird und es wird auch hier der Text (leben101) mit der Variablen "leben" gelichgesetzt. Diese Schritte werden auch für die anderen beiden falschen Antworten genutzt, jedoch müssen dort natürlich die Buttons anders bezeichnet werden. 
+
+<img width="485" alt="Bildschirmfoto 2019-04-12 um 17 46 24" src="https://user-images.githubusercontent.com/42578525/56049959-ec019300-5d4a-11e9-9183-d3a4861ab93a.png">
+
+Das Bild zeigt die Befehle, wenn die richtige Antwort angeklickt wird. In diesem Fall wird kein Leben abgezogen und der gewonne-Screen angeziegt. 
+
+In diesem Fall wird  ein onEvent-Block gesetzt, der definiert, was beim anklicken (click) von button106 passierren soll. Der Befehl setScreen"gewonnen" gibt an, dass in diesem Fall der gewonnen-Screen gezeigt wird. Auf diesem befindet sich statt dem "zurück"-Button ein "weiter"-Button, mit dem der Spieler zur nächsten Frage gelangt. DAzu wird wieder der Befehl "onEvent"button106",click" zusammen mit setScreen verwendet, wobei der nächste SCreen indeisem Fall screen102 gesetzt wird. Zudem wird die Lebensangabe leben2 auf screen2 erneut mit der VAriablen Leben wie oben erklärt gleichgesetzt. 
+
+Auf diese Weise wurden alle 20 Fragescreens programmiert. 
+
+
+
+
 
 
