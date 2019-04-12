@@ -129,7 +129,7 @@ Nun wollen wir genauer auf unser Quiz eingehen und erklären wie wir es programm
 
 ### <a name="4.1"></a> Konzept
 
-Das Konzept des Quiz ist recht einfach. Wir haben uns insgesamt 20 Fragen mit vier Antwortmöglichkeiten überlegt, von denen je eine richtig ist. Zudem haben wir uns entschieden, dass es zwei verschiedene Screens (gewonnen, verloren) gibt, die dem Spieler nach jeder Frage angezeigt werden, jenachdem, ob er die Frage richtig oder falsch beantwortet hat. Hat er sie falsch beantwortet, muss er sie solange wiederholen, bis er richtig antwortet. AUs diesem Grund machte ein typisches Punktesystem wenig Sinn, wir entschieden uns für 10 Leben, von denen bei jeder falschen Antwort eins abgezogen wird. Sind alle Leben aufgebraucht, endet das Quiz, wenn der Spieler alle Fragen schafft, ohne 0 Leben zu erreichen, wird ihm auf einem letzten Screen angezeigt, wie viele Leben er noch hatte. 
+Das Konzept des Quiz ist recht einfach. Wir haben uns insgesamt 20 Fragen mit vier Antwortmöglichkeiten überlegt, von denen je eine richtig ist. Zudem haben wir uns entschieden, dass es zwei verschiedene Screens (gewonnen, verloren) gibt, die dem Spieler nach jeder Frage angezeigt werden, jenachdem, ob er die Frage richtig oder falsch beantwortet hat. Hat er sie falsch beantwortet, muss er sie solange wiederholen, bis er richtig antwortet. Aus diesem Grund machte ein typisches Punktesystem wenig Sinn, wir entschieden uns für 10 Leben, von denen bei jeder falschen Antwort eins abgezogen wird. Sind alle Leben aufgebraucht, endet das Quiz, wenn der Spieler alle Fragen schafft, ohne null Leben zu erreichen, wird ihm auf einem letzten Screen angezeigt, wie viele Leben er noch hat. 
 
 Wir haben uns dazu entschieden, die Fragen in einer festgelgten Reihenfolge und nicht zufällig ablaufen zu lassen, da letzteres nicht ganz funktionierte und manche Fragen doppelt vorkamen bzw. das Spiel kein Ende fand. 
 
@@ -137,7 +137,7 @@ Damit sich die Namen der einzelnen Screens, Buttons etc. nicht in den Projekten 
 
 ### <a name="4.2"></a> Design
 
-Passend zum Thema Marvel und dessen typischen Designs haben wir ausschlißlich schwarze Screens mit weißer SChrift verwendet und diese zum einen mit dem MArvel-Logo sowie mit Bildern ergänzt. 
+Passend zum Thema Marvel und dessen typischen Designs haben wir ausschlißlich schwarze Screens mit weißer Schrift verwendet und diese zum einen mit dem Marvel-Logo sowie mit Bildern ergänzt. 
 
 ### <a name="4.3"></a> Screens
 
@@ -145,7 +145,7 @@ Das Quiz setzt sich aus insgesamt 26 Screens zusammen.
 
 <img width="109" alt="Bildschirmfoto 2019-04-12 um 16 42 49" src="https://user-images.githubusercontent.com/42578525/56045729-0edb7980-5d42-11e9-92f5-6f0a3a54fbe3.png">
 
-Bei 20 dieser Screens (screen101-screen120) handelt es sich um die Frage-Screens. Diese sind alle identisch aufgebaut: Auf den schwarzen Screens befindet sich in weißer Schrift die Frage (Textfeld, Arial, Schriftgröße 20, mittig), darunter vier schwarze (somit nicht sichtbare) Buttons mit den Antwortmöglichkeiten in schwarzer Schrift. Die meisten Screens sind zudem durch ein zur Frage passendes Bild ergänzt, um sie zu füllen. 
+Bei 20 dieser Screens (screen101 - screen120) handelt es sich um die Frage-Screens. Diese sind alle identisch aufgebaut: Auf den schwarzen Screens befindet sich in weißer Schrift die Frage (Textfeld, Arial, Schriftgröße 20, mittig), darunter vier schwarze (somit nicht sichtbare) Buttons mit den Antwortmöglichkeiten in weißer Schrift. Die meisten Screens sind zudem durch ein zur Frage passendes Bild ergänzt, um sie zu füllen. 
 
 <img width="301" alt="Bildschirmfoto 2019-04-12 um 16 51 26" src="https://user-images.githubusercontent.com/42578525/56046529-c755ed00-5d43-11e9-9875-447b0e4dee5e.png"> <img width="300" alt="Bildschirmfoto 2019-04-12 um 16 51 36" src="https://user-images.githubusercontent.com/42578525/56046531-c755ed00-5d43-11e9-800d-06b1954a6866.png"> 
 
