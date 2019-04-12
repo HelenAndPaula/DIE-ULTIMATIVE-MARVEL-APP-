@@ -12,9 +12,9 @@
 <details><summary>anzeigen</summary>
 <p>
  
- [2.1   Code-Bereich](#4.1)
+ [2.1   Code-Bereich](#2.1)
 
-[2.2  Entwurf-Bereich](#4.2)
+[2.2  Entwurf-Bereich](#2.2)
 
 </details>
 
@@ -187,35 +187,35 @@ Vor dem Quiz gibt es einen Homescreen, auf dem der Spieler zwischen Quiz und Psy
 
 <img width="566" alt="Bildschirmfoto 2019-04-12 um 17 23 04" src="https://user-images.githubusercontent.com/42578525/56049084-0175bd80-5d49-11e9-9d36-a9278205c76e.png">
 
-Bevor das eigentliche Quit beginnt, gibt es einen ersten Befehlsblock, der für den Quizhomescreen und die Anleitung zuständig ist. Wird buttonquiz angeklickt, so soll der Homescreen des Quiz erschienen. Dazu dient der Befehl "setScreen", auf den  ein weitere onEvent-Screen folgt, der definiert, dass der button102 (Anleitung) verursacht, dass der Anleitungsscreen gezeigt wird. Auf diese Weise (onEvent+setScreen) funktionieren eingntlich alle Buttons im Quiz. 
+Bevor das eigentliche Quiz beginnt, gibt es einen ersten Befehlsblock, der für den Quizhomescreen und die Anleitung zuständig ist. Wird buttonquiz angeklickt, so soll der Homescreen des Quiz erscheinen. Dazu dient der Befehl "setScreen", auf den  ein weiterer onEvent-Screen folgt, der definiert, dass der button102 (Anleitung) verursacht, dass der Anleitungsscreen gezeigt wird. Auf diese Weise (onEvent+setScreen) funktionieren eigentlich alle Buttons im Quiz. 
 
-Zusätzlich wird im ersten Block durch den Befehl var"leben"=10 die Variable Leben gesetzt und auf 10 definiert. Entschiedn ist, dass die Variable definiert wird bevor sie verwendet wird. Jeder Screen verfügt rechts oben in der Ecke über ein Textfeld (leben1 bis leben20) indem jeweils die Lebensanzahl als Text gesetzt ist. Dazu dient der Befehl setText"leben1",leben, also wird das Textfeld (ID variiert je nach Screen (leben1 - leben20)) immer gleich der Variablen "leben", also der Anzahl der Leben gesetzt. Dieser Befehl zieht sich durch alle Screens, wir werden ihn jedoch nur hier erklären. 
+Zusätzlich wird im ersten Block durch den Befehl var"leben"=10 die Variable Leben gesetzt und auf 10 definiert. Entscheidend ist, dass die Variable definiert wird, bevor sie verwendet wird. Jeder Screen verfügt rechts oben in der Ecke über ein Textfeld (leben1 bis leben20),  indem jeweils die Lebensanzahl als Text gesetzt ist. Dazu dient der Befehl setText"leben1",leben, also wird das Textfeld (ID variiert je nach Screen (leben1 - leben20)) immer gleich der Variablen "leben", also der Anzahl der Leben gesetzt. Dieser Befehl zieht sich durch alle Screens, wir werden ihn jedoch nur hier erklären. 
 
 Da alle Fragescreens in der Programmierung bis auf Abweichungen in den Bezeichnungen identisch sind, werden wird dies anhand des ersten Fragescreens darlegen. Zu Übersichtszwecken haben wir die Programmierung mit Kommentaren versehen (FRAGE1, FRAGE2,...). 
 
-Innerhalb der Fragescreens gibt es immer drei gleich programmierte falsche ANtworten sowie eine richtige. Zunächst werden wir die falschen Antworten anhand eines Beispiels erklären:
+Innerhalb der Fragescreens gibt es immer drei gleich programmierte falsche ANtworten sowie eine richtige. Zunächst werden wir die falsche Antworten anhand eines Beispiels erklären:
 
 <img width="518" alt="Bildschirmfoto 2019-04-12 um 17 37 34" src="https://user-images.githubusercontent.com/42578525/56049410-b14b2b00-5d49-11e9-8542-572a372fd206.png">
 
-In diesem Beispiel definiert der button103 eine falsche Antwort. Somit soll also ein Leben angezogen werden und der verloren-Screen angezeigt werden. 
+In diesem Beispiel definiert der button103 eine falsche Antwort. Somit soll also ein Leben abgezogen werden und der verloren-Screen angezeigt werden. 
 
-Dazu wird erneut ein onEvent-Block gesetzt, der definiert, was beim anklicken (click) von button103 passierren soll. Der Befehl setScreen"verloren" gibt an, dass in diesem Fall der verloren-Screen gezeigt wird. durch den Befehl leben=leben-1 wird definiert, dass ein Leben abgezogen wird, die Variable also um 1 reduziert wird. Darauf folgt immer ein "if"-Control-Block, der angibt, dass wenn leben==0 (also alle Leben verbraucht) der keineLeben-Screen angezeigt wird und dass Spiel endet. Dieser Befehl folgt auf jede Reduzierung der Variable "leben". Damit sich die Angabe der Leben in der Ecke (verloren-Screen: lebenv) anpasst folgt anschließend immer der Befehl "setText"lebenv"",leben folgen, da dieser den Text mit den reduzierten Leben, also jetzt neun, gleichsetzt. Auf dem verloren-Screen befindet sich der Button "zurück". Dieser ist jedoch untergeordnet, da sonst immer screen101 und nicht der jeweilige Screen gezeigt werden würde.  Durch einen weiteren onEvent-Befehl wird definiert, dass beim anklicken erneut Screen101, also die erste Frage, gezeigt wird und es wird auch hier der Text (leben101) mit der Variablen "leben" gelichgesetzt. Diese Schritte werden auch für die anderen beiden falschen Antworten genutzt, jedoch müssen dort natürlich die Buttons anders bezeichnet werden. 
+Dazu wird erneut ein onEvent-Block gesetzt, der definiert, was beim Anklicken (click) von button103 passieren soll. Der Befehl setScreen"verloren" gibt an, dass in diesem Fall der verloren-Screen gezeigt wird. durch den Befehl leben=leben-1 wird definiert, dass ein Leben abgezogen wird, die Variable also um 1 reduziert wird. Darauf folgt immer ein "if"-Control-Block, der angibt, dass wenn leben==0 (also alle Leben verbraucht) der keineLeben-Screen angezeigt wird und dass Spiel endet. Dieser Befehl folgt auf jede Reduzierung der Variable "leben". Damit sich die Angabe der Leben in der Ecke (verloren-Screen: lebenv) anpasst folgt anschließend immer der Befehl "setText"lebenv"",leben folgen, da dieser den Text mit den reduzierten Leben, also jetzt neun, gleichsetzt. Auf dem verloren-Screen befindet sich der Button "zurück". Dieser ist jedoch untergeordnet, da sonst immer screen101 und nicht der jeweilige Screen gezeigt werden würde.  Durch einen weiteren onEvent-Befehl wird definiert, dass beim anklicken erneut Screen101, also die erste Frage, gezeigt wird und es wird auch hier der Text (leben101) mit der Variablen "leben" gleichgesetzt. Diese Schritte werden auch für die anderen beiden falschen Antworten genutzt, jedoch müssen dort natürlich die Buttons anders bezeichnet werden. 
 
 <img width="485" alt="Bildschirmfoto 2019-04-12 um 17 46 24" src="https://user-images.githubusercontent.com/42578525/56049959-ec019300-5d4a-11e9-9183-d3a4861ab93a.png">
 
-Das Bild zeigt die Befehle, wenn die richtige Antwort angeklickt wird. In diesem Fall wird kein Leben abgezogen und der gewonne-Screen angeziegt. 
+Das Bild zeigt die Befehle, wenn die richtige Antwort angeklickt wird. In diesem Fall wird kein Leben abgezogen und der gewonnen-Screen angeziegt. 
 
-In diesem Fall wird  ein onEvent-Block gesetzt, der definiert, was beim anklicken (click) von button106 passierren soll. Der Befehl setScreen"gewonnen" gibt an, dass in diesem Fall der gewonnen-Screen gezeigt wird. Auf diesem befindet sich statt dem "zurück"-Button ein "weiter"-Button, mit dem der Spieler zur nächsten Frage gelangt. Dazu wird wieder der Befehl "onEvent"button106",click" zusammen mit setScreen verwendet, wobei der nächste Screen in diesem Fall screen102 gesetzt wird. Zudem wird die Lebensangabe leben2 auf screen2 erneut mit der Variablen Leben wie oben erklärt gleichgesetzt. 
+In diesem Fall wird  ein onEvent-Block gesetzt, der definiert, was beim Anklicken (click) von button106 passieren soll. Der Befehl setScreen"gewonnen" gibt an, dass in diesem Fall der gewonnen-Screen gezeigt wird. Auf diesem befindet sich statt dem "zurück"-Button ein "weiter"-Button, mit dem der Spieler zur nächsten Frage gelangt. Dazu wird wieder der Befehl "onEvent"button106",click" zusammen mit setScreen verwendet, wobei der nächste Screen in diesem Fall screen102 gesetzt wird. Zudem wird die Lebensangabe leben2 auf screen2 erneut mit der Variablen Leben wie oben erklärt gleichgesetzt. 
 
 Auf diese Weise wurden alle 20 Fragescreens programmiert. 
 
-Wird FRAGE20 richtig beantwortet, folgt statt des nächsten Fragescreens der Screen "quizende" (Programmierung: s. oben). Auf diesem befindet sich ein vorgeschriebener Text sowie ein in diesen Text eingebautes Textfeld, das wie oben mit den Leben gleichgesetzt ist, sodass im Text die richtige Lebensanzahl steht. Von dort aus hat der Spieler erneut durch zwei Buttons die Möglichkeit erneut zu spielen (Button "nochmalquiz") oder zum Homescreen (Button "Home") zurückzukehren. Gleiches gilt für den Screen, der auftritt wenn keine Leben mehr verfügbar sind (hier: nochmalquiz2, Home101) . Wird der Button "nochmalquiz" angeklickt, werden die Leben wieder auf 10 gesetzt (leben=10). 
+Wird Frage 20 richtig beantwortet, folgt statt des nächsten Fragescreens der Screen "quizende" (Programmierung: s. oben). Auf diesem befindet sich ein vorgeschriebener Text sowie ein in diesen Text eingebautes Textfeld, das wie oben mit den Leben gleichgesetzt ist, sodass im Text die richtige Lebensanzahl steht. Von dort aus hat der Spieler erneut durch zwei Buttons die Möglichkeit erneut zu spielen (Button "nochmalquiz") oder zum Homescreen (Button "Home") zurückzukehren. Gleiches gilt für den Screen, der auftritt wenn keine Leben mehr verfügbar sind (hier: nochmalquiz2, Home101) . Wird der Button "nochmalquiz" angeklickt, werden die Leben wieder auf 10 gesetzt (leben=10). 
 
 <img width="522" alt="Bildschirmfoto 2019-04-12 um 17 56 41" src="https://user-images.githubusercontent.com/42578525/56050514-67b00f80-5d4c-11e9-982b-af9e2fe2f7cc.png">
 
 ### <a name="4.5"></a> Ende des Quiz
 
-Wie oben erklärt wird  bei jeder falschen Antwort eins der zehn Leben abgezogen. Sind keine Leben mehr vorhanden endet das Spiel, ansonsten kann der Spieler das Quiz durchspielen, bis er alle 20 Fragen beantwortet hat. 
+Wie oben erklärt wird  bei jeder falschen Antwort eins der zehn Leben abgezogen. Sind keine Leben mehr vorhanden, endet das Spiel, ansonsten kann der Spieler das Quiz durchspielen, bis er alle zwanzig Fragen beantwortet hat. 
 
 ## <a name="5"></a> WELCHER MARVELHELD BIST DU?
 
@@ -229,7 +229,7 @@ Das Konzept ist einfach: Der Spieler beantwortet zehn Fragen mit je acht Antwort
 
 ### <a name="5.2"></a> Design
 
-Wie auch das Quiz ist der Psychotest vollständig schwarz mit weißer Schrift gestaltet. Auf den Fragescreens sind keine Bilder, jeodch ist bei den Ergebnissen jeweils der jeweilige Superheld abgebildet. 
+Wie auch das Quiz ist der Psychotest vollständig schwarz mit weißer Schrift gestaltet. Auf den Fragescreens sind keine Bilder, jedoch ist bei den Ergebnissen jeweils der jeweilige Superheld abgebildet. 
 
 ### <a name="5.3"></a> Screens
 
@@ -289,7 +289,7 @@ Somit ergeben sich die folgenden Ergebnisschreens, die jeweils mit einem kurzen 
 
 ### <a name="5.5"></a> Code 
 
-Der erste Block des Codes ist genauso aufgebaut wie der des Quiz, da auch hier definiert wird, dass beim Anklicken der Buttons erst der Homescreen des Psychotests und dann die Anleitung gezeigt werden soll. DAbei werden genau dieselben onEvent-Befehle wie oben genutzt, daher werden wir sie hier nicht nocheinmal erklären.
+Der erste Block des Codes ist genauso aufgebaut wie der des Quiz, da auch hier definiert wird, dass beim Anklicken der Buttons erst der Homescreen des Psychotests und dann die Anleitung gezeigt werden soll. Dabei werden genau dieselben onEvent-Befehle wie oben genutzt, daher werden wir sie hier nicht noch einmal erklären.
 
 <img width="581" alt="Bildschirmfoto 2019-04-12 um 20 38 31" src="https://user-images.githubusercontent.com/42578525/56058974-3858cd00-5d63-11e9-967f-6bf300223b6a.png">
 
@@ -301,14 +301,14 @@ Die einzelnen Fragescreens sind ebenfalls gleich programmiert. Daher werden wir 
 
 Mit Beginn der ersten Frage wird zunächst eine neue Variable "score" eingeführt und mithilfe des Befehls "var"score"=0" gleich 0 gesetzt. 
 
-Danach folgen jeweils onEvent-Blöcke, die definieren was beim anklicken der jeweiligen Buttons passiert. Button8 zum Beispiel definiert die Antwort für Captain America, der Score muss also um 4 erhöht werden. Dazu wird unter den onEvent-Befehl ("button9",click) ein Variablenblock gesetzt, der in Kombination mit einem Math-Block die Erhöhung des Scores um 4 definiert: "score=score+4". Wie auch beim Quiz wird dann ein Textfeld, welches jedoch nicht für den Spieler sichtbar ist (schwarze Schrift auf schwarzem Hintergrund", mit dem Score gleichgesetzt (setText, s. oben). Dies wird für jede Antowrtmöglichkeit und bei allen Fragescreens so gemacht. Dabei gilt immer "score=score+x", wobei x die für die Figur festgelegte Zahl ist. SOmit ergibt sich für Frage 1 der im Bild gezeigte Code. Dieser ähnelt dem des Quizes.
+Danach folgen jeweils onEvent-Blöcke, die definieren was beim Anklicken der jeweiligen Buttons passiert. Button8 zum Beispiel definiert die Antwort für Captain America, der Score muss also um 4 erhöht werden. Dazu wird unter den onEvent-Befehl ("button9",click) ein Variablenblock gesetzt, der in Kombination mit einem Math-Block die Erhöhung des Scores um 4 definiert: "score=score+4". Wie auch beim Quiz wird dann ein Textfeld, welches jedoch nicht für den Spieler sichtbar ist (schwarze Schrift auf schwarzem Hintergrund", mit dem Score gleichgesetzt (setText, s. oben). Dies wird für jede Antwortmöglichkeit und bei allen Fragescreens so gemacht. Dabei gilt immer "score=score+x", wobei x die für die Figur festgelegte Zahl ist. Somit ergibt sich für Frage 1 der im Bild gezeigte Code. Dieser ähnelt dem Code des Quizes.
 
 Entscheidend ist die Auswertung des Psychotest. Dabei wurde festgelegt bei welchem Score welches Ergebnis folgen soll und dies mithilfe von if-Befehlen festgelegt. Dabei ist jeweils definiert, welcher Ergebnisscreen gezeigt werden soll, wenn der Score größergleich ein bestimmter Wert ist. 
 
 <img width="678" alt="Bildschirmfoto 2019-04-12 um 20 50 22" src="https://user-images.githubusercontent.com/42578525/56059725-05afd400-5d65-11e9-8812-6e8394622ad3.png">
 <img width="655" alt="Bildschirmfoto 2019-04-12 um 20 50 31" src="https://user-images.githubusercontent.com/42578525/56059726-06486a80-5d65-11e9-9099-c886aea16411.png">
 
-Dazu wurde der die Kombination der Befehle if() (wenn...) und setScreen genutzt. Die Werte lauten wiefolgt: 
+Dazu wurde der die Kombination der Befehle if() (wenn...) und setScreen genutzt. Die Werte lauten wie folgt: 
 
 Score > 0 : Loki
 
@@ -343,9 +343,9 @@ Der Link kann auch mit Smartphones geteilt und die App dort gespielt werden:
 
 ## <a name="6"></a> Fazit
 
-Abschließend lässt sich sagen, dass uns das Programmieren sehr viel Spaß gemacht hat und wir mit dem Ergebnis wirklich zufrienden sind. Im Gegensatz zu unserem letzten Projekt konnten wir dieses Mal auch viel designen und zudem war das Thema für uns beide sehr interessant. Besonders schön fanden wir es, dass wir unsere App nun tatsächlich auf dem Handy spielen könne. Auch wenn wir einen Punkte nicht so umsetzen konnten, wie wir ursprünglich wollten, sind wir stolz, da wir dieses Projekt ohne Hilfe programmieren konnten.
+Abschließend lässt sich sagen, dass uns das Programmieren sehr viel Spaß gemacht hat und wir mit dem Ergebnis wirklich zufrieden sind. Im Gegensatz zu unserem letzten Projekt konnten wir dieses Mal auch viel designen und zudem war das Thema für uns beide sehr interessant. Besonders schön fanden wir es, dass wir unsere App nun tatsächlich auf dem Handy spielen können. Auch wenn wir einen Punkte nicht so umsetzen konnten, wie wir ursprünglich wollten, sind wir stolz, dass wir dieses Projekt ohne Hilfe programmieren konnten.
 
-Zudem war es sehr interessant, diese neuen Aspekte in Bezug auf Verarbietung von Informationen zu bearbeiten und sich dmit auseinanderzusetzten. Isgesamt hat uns dieses Projekt besser gefallen als unser erstes, auch da AppLAb so ansprechend und übersichtlich ist. 
+Zudem war es sehr interessant, diese neuen Aspekte in Bezug auf Verarbietung von Informationen zu bearbeiten und sich damit auseinanderzusetzten. Insgesamt hat uns dieses Projekt besser gefallen als unser erstes, auch da AppLab so ansprechend und übersichtlich ist. 
 
 ## <a name="8"></a> Stundenblog 
 
