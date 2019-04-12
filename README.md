@@ -167,29 +167,6 @@ Das Konzept ist einfach: Der Spieler beantwortet zehn Fragen mit je acht Antwort
 
 Wie auch das Quiz ist der Psychotest vollständig schwarz mit weißer Schrift gestaltet. Auf den Fragescreens sind keine Bilder, jeodch ist bei den Ergebnissen jeweils der jeweilige Superheld abgebildet. 
 
-### Helden (mögliche Ergebnisse)
-
-Die folgende Tabelle zeigt die acht Helden mit ihren wichtigsten Eigenschaften sowie den Faktor um den sich der Score erhöht, wenn ihre Antwort geklickt wird. 
-
-Loki: Antiheld, Bruder von Thor, hinterhältig (Score +1)
-
-Thor: stark, mächtig, unsterblich, Gott des Donners (Score +2)
-
-Iron Man:Technik, reich, von sich selbst überzeugt (Score +3)
-Captain America:  mutig, sportlich, stur                               (Score +4)
-
-Scarlet Witch:  Magische Fähigkeiten durch Experimente               (Score +5)
-
-Black Widow: Agentin, Nahkampf, kein Vertrauen                    (Score +6)
-
-Groot: ich bin Groot                                        (Score +7)
-
-Spiderman:  mutig, Naturwissenschaften, unerfahren               (Score +8)
-
-Die Fragen werden wiefolgt gewertet: 
-
-<img width="629" alt="Bildschirmfoto 2019-04-12 um 20 25 47" src="https://user-images.githubusercontent.com/42578525/56058483-ccc23000-5d61-11e9-8b0d-1234a745d0e3.png">
-
 ### Screens
 
 Der Psychotest setzt sich aus 21 Screens zusammen. Die ersten beiden sind erneut Homescreen (home-psychotest) und Anleitung (screen12). 
@@ -209,10 +186,41 @@ Zudem gibt es die zehn verschiedenen Fragescreens (screen1 bis screen10) mit je 
 
 <img width="294" alt="Bildschirmfoto 2019-04-12 um 20 28 51" src="https://user-images.githubusercontent.com/42578525/56058424-a8feea00-5d61-11e9-88dd-bb5cfdb4cc8e.png"> <img width="294" alt="Bildschirmfoto 2019-04-12 um 20 29 02" src="https://user-images.githubusercontent.com/42578525/56058425-a8feea00-5d61-11e9-93e2-e3412d5d8b07.png">
 
+Zusätzlich gibt es vor den möglichen Antwortscreens (s. Helden, mögliche Ergebnisse) auch noch screen11, der Spannung aufbauen soll. 
 
+<img width="298" alt="Bildschirmfoto 2019-04-12 um 20 32 30" src="https://user-images.githubusercontent.com/42578525/56058608-1e6aba80-5d62-11e9-8323-9135057423eb.png">
 
+### Helden (mögliche Ergebnisse)
 
+Die folgende Tabelle zeigt die acht Helden mit ihren wichtigsten Eigenschaften sowie den Faktor um den sich der Score erhöht, wenn ihre Antwort geklickt wird. 
 
+Loki: Antiheld, Bruder von Thor, hinterhältig (Score +1)
 
+Thor: stark, mächtig, unsterblich, Gott des Donners (Score +2)
+
+Iron Man:Technik, reich, von sich selbst überzeugt (Score +3)
+Captain America:  mutig, sportlich, stur (Score +4)
+
+Scarlet Witch:  Magische Fähigkeiten durch Experimente (Score +5)
+
+Black Widow: Agentin, Nahkampf, kein Vertrauen  (Score +6)
+
+Groot: ich bin Groot  (Score +7)
+
+Spiderman:  mutig, Naturwissenschaften, unerfahren  (Score +8)
+
+Die Fragen werden wiefolgt gewertet: 
+
+<img width="629" alt="Bildschirmfoto 2019-04-12 um 20 25 47" src="https://user-images.githubusercontent.com/42578525/56058483-ccc23000-5d61-11e9-8b0d-1234a745d0e3.png">
+
+Somit ergeben sich die folgenden Ergebnisschreens, die jeweils mit einem kurzen Text versehen sind.
+
+<img width="289" alt="Bildschirmfoto 2019-04-12 um 20 33 59" src="https://user-images.githubusercontent.com/42578525/56058800-c2546600-5d62-11e9-8ac1-c2b086aada35.png"> <img width="297" alt="Bildschirmfoto 2019-04-12 um 20 35 00" src="https://user-images.githubusercontent.com/42578525/56058801-c2546600-5d62-11e9-8596-f4fead189f68.png">
+
+<img width="295" alt="Bildschirmfoto 2019-04-12 um 20 35 12" src="https://user-images.githubusercontent.com/42578525/56058802-c2546600-5d62-11e9-849c-dffacf757af6.png"> <img width="297" alt="Bildschirmfoto 2019-04-12 um 20 35 28" src="https://user-images.githubusercontent.com/42578525/56058803-c2546600-5d62-11e9-9a62-725f7032cf0f.png">
+
+<img width="294" alt="Bildschirmfoto 2019-04-12 um 20 35 42" src="https://user-images.githubusercontent.com/42578525/56058805-c2546600-5d62-11e9-8e5a-a6b2944e6724.png"> <img width="296" alt="Bildschirmfoto 2019-04-12 um 20 36 05" src="https://user-images.githubusercontent.com/42578525/56058806-c2ecfc80-5d62-11e9-84c9-e5a022e2aa18.png">
+
+<img width="298" alt="Bildschirmfoto 2019-04-12 um 20 36 32" src="https://user-images.githubusercontent.com/42578525/56058807-c2ecfc80-5d62-11e9-8a00-5a6f363f2b62.png"> <img width="297" alt="Bildschirmfoto 2019-04-12 um 20 36 53" src="https://user-images.githubusercontent.com/42578525/56058808-c2ecfc80-5d62-11e9-83eb-1f2ce056fd7c.png">
 
 
