@@ -223,4 +223,16 @@ Somit ergeben sich die folgenden Ergebnisschreens, die jeweils mit einem kurzen 
 
 <img width="298" alt="Bildschirmfoto 2019-04-12 um 20 36 32" src="https://user-images.githubusercontent.com/42578525/56058807-c2ecfc80-5d62-11e9-8a00-5a6f363f2b62.png"> <img width="297" alt="Bildschirmfoto 2019-04-12 um 20 36 53" src="https://user-images.githubusercontent.com/42578525/56058808-c2ecfc80-5d62-11e9-83eb-1f2ce056fd7c.png">
 
+### Code 
+
+Der erste Block des Codes ist genauso aufgebaut wie der des Quiz, da auch hier definiert wird, dass beim Anklicken der Buttons erst der Homescreen des Psychotests und dann die Anleitung gezeigt werden soll. DAbei werden genau dieselben onEvent-Befehle wie oben genutzt, daher werden wir sie hier nicht nocheinmal erklären.
+
+<img width="581" alt="Bildschirmfoto 2019-04-12 um 20 38 31" src="https://user-images.githubusercontent.com/42578525/56058974-3858cd00-5d63-11e9-967f-6bf300223b6a.png">
+
+Die einzelnen Fragescreens sind ebenfalls gleich programmiert. Daher werden wir dies am Beispiel der ersten Frage erklären. Nur zwei Screens weichen ab, da diese nicht acht sondern nur zwei bzw. vier Antwortmöglickeiten haben, jedoch sind sie trotzdem gleich programmiert. 
+
+<img width="629" alt="Bildschirmfoto 2019-04-12 um 20 42 07" src="https://user-images.githubusercontent.com/42578525/56059077-8372e000-5d63-11e9-8625-a8fd465af797.png">
+<img width="616" alt="Bildschirmfoto 2019-04-12 um 20 42 18" src="https://user-images.githubusercontent.com/42578525/56059078-8372e000-5d63-11e9-8b30-b7c9f4471865.png">
+<img width="573" alt="Bildschirmfoto 2019-04-12 um 20 42 26" src="https://user-images.githubusercontent.com/42578525/56059079-840b7680-5d63-11e9-876a-08df7418e5d7.png">
+
 
